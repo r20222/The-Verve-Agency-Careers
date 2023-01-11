@@ -40,12 +40,21 @@ h2{
 }
 
 section:hover{
-    cursor:cell;
+    cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
 }
 
 .cursor{
-    width: 24px;
-    height:24px;
-    background-color:white;
+    width: 35px;
+    height:35px;
+    background-color:rgb(241, 225, 46);
     border-radius:50%;
+    position:absolute;
+    z-index: 0;
+}
+
+p{
+    color:black;
+    position:absolute;
+    top:80px;
+    z-index:2;
 }
