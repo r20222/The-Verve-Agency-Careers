@@ -34,6 +34,11 @@ button{
     align-items:center;
     overflow:hidden;
 }
+
+.cool-gradient{
+  background: linear-gradient(to top left,red, orange, yellow);
+}
+
 h2{
     color:white;
     width:200px;
@@ -42,29 +47,32 @@ h2{
     z-index: 2;
     display: block;
 }
-.cursor{
+
+/* Deze onderstaande dingen niet verwijderen, dit is de cursor voor de desktop versie */
+/* .cursor{
     width: 35px;
     height:35px;
     position:absolute;
-    /* left: 500px; */
     background-color:rgb(241, 225, 46);
     border-radius:50%;
     position:absolute;
     z-index: 0;
-    /* opacity:0; */
-}
+} */
 /* .cursor:hover{
   opacity:1;
 } */
-.design-history:hover{
+/* .design-history:hover{
     cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
-}
+} */
+
+
+
 .walt{
     color:black;
     position:absolute;
     top:57px;
     z-index:2;
-    display: block;
+    display: none;
 }
 .amy{
     color:black;
@@ -72,6 +80,7 @@ h2{
     position:absolute;
     left:20px;
     z-index:2;
+    display: none;
 }
 
 /* dog on skateboard */
@@ -104,6 +113,8 @@ h2{
     position:absolute;
     top:5px;
     transform: rotate(20deg);
+    transition: 0.1s;
+    left:0px;
   }
   .nose{
     width:30px;
@@ -222,10 +233,23 @@ h2{
 
   /* dog animation */
 
+.ear-animation{
+  animation: speed 4s linear;
+  animation-iteration-count:1;
+  transition:3s;
+}
+
+@keyframes speed{
+  50%{
+    left: -20px;
+    top: -40px;
+    transform: rotate(90deg);
+  }
+}
+
   .skating{
-    animation: skater-dog 3s linear forwards;
+    animation: skater-dog 2s linear;
     animation-iteration-count: 1;
-    transition:6s;
   }
 
 @keyframes skater-dog{

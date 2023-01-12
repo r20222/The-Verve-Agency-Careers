@@ -1,4 +1,4 @@
-// Design history section
+// Design history section voor desktop
 
 const cursor = document.querySelector('.cursor');
 const designHistory = document.querySelector('.design-history');
@@ -11,8 +11,16 @@ cursor.setAttribute('style', 'top: '+(e.pageY - 30.5)+"px; left: "+(e.pageX - 29
 // https://www.youtube.com/watch?v=rfpRZ2t_BrQ
 // 10:14
 
+// design history voor mobile first
 
-// skateboard dog section
+designHistory.addEventListener('click', gradient);
+
+function gradient(){
+  designHistory.classList.toggle('cool-gradient');
+}
+
+
+// skateboard dog eye section
 
 document.querySelector('body').addEventListener('mousemove', eyeball);
 
@@ -29,15 +37,21 @@ function eyeball(){
 
 // skateboard dog animation
 
-const clickDog = document.querySelector('.body');
-const completeDog = document.querySelector('.dog');
+const clickDog = document.querySelector('.body')
+const completeDog = document.querySelector('.dog')
+const ear = document.querySelector('.ear')
 
-clickDog.addEventListener('click', skate);
-clickDog.addEventListener('animationend', skate);
+clickDog.addEventListener('click', skate)
+clickDog.addEventListener('animationend', skate)
+clickDog.addEventListener('transitionend', skate)
+ear.addEventListener('animationend', skate)
+ear.addEventListener('transitionend', skate)
 
-function skate(){
-  completeDog.classList.toggle('skating');
+function skate() {
+  completeDog.classList.toggle('skating')
+  ear.classList.toggle('ear-animation')
 }
+
 
 
 // join us now!!! letter party
@@ -46,6 +60,14 @@ const allLetters = document.querySelectorAll('.letter-party h3');
 
 allLetters.forEach(function(letter) {
   letter.addEventListener('click', ()=> {
-    letter.classList.add('move-letter');
+    letter.classList.toggle('move-letter');
   });
 });
+
+allLetters.forEach(function(letter) {
+  letter.addEventListener('animationend', again)
+});
+
+function again(letter){
+  letter.classList.toggle('move-letter');
+}
