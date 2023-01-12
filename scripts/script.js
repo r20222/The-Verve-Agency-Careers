@@ -38,3 +38,14 @@ clickDog.addEventListener('animationend', skate);
 function skate(){
   completeDog.classList.toggle('skating');
 }
+
+
+// join us now!!! letter party
+
+const allLetters = document.querySelectorAll('.letter-party h3');
+
+allLetters.forEach(function(letter) {
+  letter.addEventListener('click', ()=> {
+    letter.classList.add('move-letter');
+  });
+});
