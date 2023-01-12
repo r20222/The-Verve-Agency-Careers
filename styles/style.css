@@ -8,6 +8,7 @@ nav{
     margin: 15px;
     display:flex;
     justify-content: space-between;
+    background-color:white;
 }
 h1{
     font-weight:900;
@@ -39,24 +40,178 @@ h2{
     line-height:50px;
     font-size:3rem;
     z-index: 2;
+    display: block;
 }
-
-section:hover{
-    cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
-}
-
 .cursor{
     width: 35px;
     height:35px;
+    position:absolute;
+    left: 500px;
     background-color:rgb(241, 225, 46);
     border-radius:50%;
     position:absolute;
     z-index: 0;
 }
-
-p{
+.design-history:hover{
+    cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
+}
+.walt{
     color:black;
     position:absolute;
-    top:80px;
+    top:57px;
+    z-index:2;
+    display: block;
+}
+.amy{
+    color:black;
+    width:80px;
+    position:absolute;
+    left:20px;
     z-index:2;
 }
+
+/* dog on skateboard */
+
+.dog{
+    background-color: transparent;
+    position:relative;
+    width: 400px;
+    height:400px;
+    transform:scale(0.8);
+    left:-50px;
+    top: -40px;
+  }
+  
+  .head{
+    width:120px;
+    height:68px;
+    border-radius: 50%;
+    background: linear-gradient( #AC5C2F, #4E1A06);
+    position:absolute;
+    right:70px;
+    top: 110px;
+    z-index:1;
+  }
+  .ear{
+    width:50px;
+    height:90px;
+    background: linear-gradient(#4D1A0C,#B97B54);
+    border-radius: 50%;
+    position:absolute;
+    top:5px;
+    transform: rotate(20deg);
+  }
+  .nose{
+    width:30px;
+    height:20px;
+    background-color: #1B1610;
+    position:absolute;
+    right:-10px;
+    top:10px;
+    border-radius:50%;
+  }
+  
+  .eye{
+    width:20px;
+    height:20px;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    right:35px;
+    top: 15px;
+    overflow:hidden;
+  }
+  .pupil{
+    width:8px;
+    height: 8px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute;
+    top: 5px;
+    right:3px;
+  }
+  .body{
+    width: 150px;
+    height: 100px;
+    background:linear-gradient(#A9541F,#C47D52);
+    border-radius: 50%;
+    position:absolute;
+    top:160px;
+    right:140px; 
+    transform: rotate(-30deg);
+    
+  }
+  
+  .paw1{
+    height:60px;
+    width:30px;
+    background: linear-gradient( #AC5C2F, #4E1A06);
+    border-radius:50px;
+    position:absolute;
+    top:210px;
+    right:155px;
+    z-index: 2;
+  }
+  .paw2{
+    height:70px;
+    width:25px;
+    background: linear-gradient( #AC5C2F, #4E1A06);
+    border-radius: 50px;
+    position:absolute;
+    top:200px;
+    right:130px;
+    transform:rotate(-30deg);
+    z-index: 2;
+  }
+  
+  .back-paw{
+    width:80px;
+    height: 50px;
+    background: linear-gradient( #AC5C2F, #4E1A06);
+    border-radius: 30px;
+    position:absolute;
+    top: 230px;
+    right: 210px;
+    transform:rotate(-10deg);
+    z-index:2;
+  }
+  
+  .tail{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:linear-gradient(#986340,#954A1D);
+    position:absolute;
+    top:180px;
+    right:270px;
+  }
+  .skateboard{
+    width:250px;
+    height:30px;
+    background-color:#686354;
+    border-radius:50%;
+    position: absolute;
+    top:260px;
+    right:80px;
+    z-index:1;
+  }
+  .wheel1{
+    width:35px;
+    height:35px;
+    background-color: black;
+    border-radius:50%;
+    position:absolute;
+    top: 280px;
+    left: 120px;
+    z-index:0;
+  }
+  .wheel2{
+    width:35px;
+    height:35px;
+    background-color: black;
+    border-radius:50%;
+    position:absolute;
+    top:280px;
+    right:120px;
+    z-index: 0;
+  }
