@@ -289,6 +289,7 @@ h2{
     display: flex;
     /* justify-content:flex-start, space-evenly; */
     margin-top: 80px;
+    margin-left: 20px;
   }
   .letter-party h3{
     display:inline-block;
@@ -333,5 +334,185 @@ h2{
     }
     to{
       opacity:1;
+    }
+  }
+
+  /* applications skateboard */
+
+  .join-us-first{
+    height: 100px;
+    width: 280px;
+    background:transparent;
+    position:relative;
+    perspective: 1000px;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .join-us-first h4{
+    font-size: 1.6rem;
+  }
+  .board{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background: linear-gradient(to left, black, grey, black);
+    border-radius:50px;
+  }
+  
+  /* Let op: verwijder het onderstaande niet, dat is voor de desktop versie */
+  /* .join-us-first:hover .board{
+    transform: rotateX(180deg);
+  } */
+  
+  .board-front, .board-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+  }
+  .board-back{
+    transform: rotateX(180deg);
+  }
+  /* front board wheels etc */
+  .app-wheel1{
+    width: 30px;
+    height:15px;
+    background: white;
+    border-radius: 50px;
+    position:absolute;
+    top:10px;
+    left: 50px;
+  }
+  
+  .app-wheel2{
+    width: 30px;
+    height:15px;
+    background: white;
+    border-radius: 50px;
+    position:absolute;
+    top:75px;
+    left: 50px;
+  }
+  .app-wheel3{
+    width: 30px;
+    height:15px;
+    background: white;
+    border-radius: 50px;
+    position:absolute;
+    top:75px;
+    left: 200px;
+    z-index:2;
+  }
+  .app-wheel4{
+    width: 30px;
+    height:15px;
+    background: white;
+    border-radius: 50px;
+    position:absolute;
+    top:10px;
+    left: 200px;
+  }
+  
+  .between-wheels{
+    height:50px;
+    width: 15px;
+    background-color: grey;
+    top:25px;
+    left: 58px;
+    position:absolute;
+  }
+  
+  .between-wheels2{
+    height:50px;
+    width: 15px;
+    background-color: grey;
+    top:25px;
+    left: 208px;
+    position:absolute;
+  }
+  
+  
+  /* back board nails etc */
+  
+  .nail1{
+    width:8px;
+    height:8px;
+    background:black;
+    border-radius:50%;
+    position: absolute;
+    top:25px;
+    left: 68px;
+  }
+  .nail2{
+    width:8px;
+    height:8px;
+    background:black;
+    border-radius:50%;
+    position: absolute;
+    top:65px;
+    left: 68px;
+  }
+  .nail3{
+    width:8px;
+    height:8px;
+    background:black;
+    border-radius:50%;
+    position: absolute;
+    top:65px;
+    left: 208px;
+  }
+  .nail4{
+    width:8px;
+    height:8px;
+    background:black;
+    border-radius:50%;
+    position: absolute;
+    top:25px;
+    left: 208px;
+  }
+
+  /* aplications skateboard animation mobile */
+
+/* onderstaande animatie werkt niet samen met andere animatie:( */
+  /* .flip-over-board{
+    animation: flip-skate-board 2s linear;
+    animation-iteration-count: 1;
+  }
+  @keyframes flip-skate-board{
+    100%{
+      transform: rotateX(180deg);
+    }
+  } */
+
+  .roll-board{
+    animation: app-skateboard-roll 2s linear;
+    animation-iteration-count: 1;
+    /* animation-delay: 2s; */
+  } 
+
+  @keyframes app-skateboard-roll{
+    20%{
+      transform:translateX(600px);
+    }
+    20%{
+      opacity:0;
+    }
+    50%{
+      opacity:0;
+      transform: translateX(-600px)
+    }
+    60%{
+      opacity:0;
+    }
+    90%{
+      opacity:0;
     }
   }

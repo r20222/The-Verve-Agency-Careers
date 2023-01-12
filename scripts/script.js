@@ -71,3 +71,16 @@ allLetters.forEach(function(letter) {
 function again(letter){
   letter.classList.toggle('move-letter');
 }
+
+
+// application skateboard
+
+const appBoard = document.querySelector('.join-us-first')
+const board = document.querySelector('.board')
+appBoard.addEventListener('click', roll)
+appBoard.addEventListener('animationend', roll)
+
+function roll(){
+  // board.classList.toggle('flip-over-board');
+  appBoard.classList.toggle('roll-board');
+}
