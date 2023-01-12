@@ -46,12 +46,16 @@ h2{
     width: 35px;
     height:35px;
     position:absolute;
-    left: 500px;
+    /* left: 500px; */
     background-color:rgb(241, 225, 46);
     border-radius:50%;
     position:absolute;
     z-index: 0;
+    /* opacity:0; */
 }
+/* .cursor:hover{
+  opacity:1;
+} */
 .design-history:hover{
     cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
 }
@@ -214,4 +218,16 @@ h2{
     top:280px;
     right:120px;
     z-index: 0;
+  }
+
+
+  /* first paragraph */
+
+  .first-paragraph{
+    font-size:28px;
+    text-align:auto;
+    margin:10px;
+    line-height:1.5em;
+    position:relative;
+    margin-top:-85px;
   }
