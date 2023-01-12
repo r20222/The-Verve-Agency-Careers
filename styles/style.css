@@ -1,8 +1,11 @@
 *{
     font-family:whyte, sans-serif;
     margin:0;
+    
 }
-
+html{
+  overflow:hidden;
+}
 /* navigatie */
 nav{
     margin: 15px;
@@ -220,6 +223,32 @@ h2{
     z-index: 0;
   }
 
+  /* dog animation */
+
+  .skating{
+    animation: skater-dog 3s linear forwards;
+    animation-iteration-count: 1;
+    transition:6s;
+  }
+
+@keyframes skater-dog{
+  20%{
+    transform:translateX(700px);
+  }
+  20%{
+    opacity:0;
+  }
+  50%{
+    opacity:0;
+    transform: translateX(-700px)
+  }
+  60%{
+    opacity:0;
+  }
+  90%{
+    opacity:0;
+  }
+}
 
   /* first paragraph */
 

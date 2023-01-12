@@ -27,3 +27,14 @@ function eyeball(){
     eye.style.transform = "rotate("+ rot +"deg)";
 }
 
+// skateboard dog animation
+
+const clickDog = document.querySelector('.body');
+const completeDog = document.querySelector('.dog');
+
+clickDog.addEventListener('click', skate);
+clickDog.addEventListener('animationend', skate);
+
+function skate(){
+  completeDog.classList.toggle('skating');
+}
