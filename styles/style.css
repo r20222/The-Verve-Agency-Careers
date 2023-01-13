@@ -33,6 +33,7 @@ button{
     justify-content: center;
     align-items:center;
     overflow:hidden;
+    /* opacity:0.8; */
 }
 
 .cool-gradient{
@@ -580,4 +581,10 @@ h2{
       color:#012024;
       transform:scale(1.3) rotate(30deg);
     }
+
+    /* skateboard application hover */
+
+    .join-us-first:hover .board{
+    transform: rotateX(180deg);
+  }
   }
