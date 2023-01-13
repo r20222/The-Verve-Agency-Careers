@@ -774,7 +774,7 @@ h2{
 .ray3:nth-of-type(4){
   animation: colors 4s linear;
   animation-iteration-count:infinite;
-  animation-delay:3.2;
+  animation-delay:3.2s;
 }
 
 
