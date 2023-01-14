@@ -76,12 +76,48 @@ function again(letter){
 // application skateboard
 
 const appBoard = document.querySelector('.join-us-first')
-// const appboard2 = document.querySelector('.join-us-second')
+const appBoard2 = document.querySelector('.join-us-second')
+const appBoard3 = document.querySelector('.join-us-third')
+const appBoard4 = document.querySelector('.join-us-fourth')
+
 const board = document.querySelector('.board')
+
 appBoard.addEventListener('click', roll)
 appBoard.addEventListener('animationend', roll)
 
+appBoard2.addEventListener('click', roll2)
+appBoard2.addEventListener('animationend', roll2)
+
+appBoard3.addEventListener('click', roll3)
+appBoard3.addEventListener('animationend', roll3)
+
+appBoard4.addEventListener('click', roll4)
+appBoard4.addEventListener('animationend', roll4)
+
 function roll(){
-  // board.classList.toggle('flip-over-board');
   appBoard.classList.toggle('roll-board');
 }
+
+function roll2(){
+  appBoard2.classList.toggle('roll-board');
+}
+
+function roll3(){
+  appBoard3.classList.toggle('roll-board');
+}
+
+function roll4(){
+  appBoard4.classList.toggle('roll-board');
+}
+
+
+// waarom werkt deze forEach niet??
+// const app = document.querySelectorAll('.app');
+
+// app.forEach((application) => {
+//   application.addEventListener('click', roll);
+// });
+
+// function roll() {
+//   app.classList.toggle('roll-board');
+// }
