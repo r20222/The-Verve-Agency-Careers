@@ -76,6 +76,7 @@ function again(letter){
 // application skateboard
 
 const appBoard = document.querySelector('.join-us-first')
+// const appboard2 = document.querySelector('.join-us-second')
 const board = document.querySelector('.board')
 appBoard.addEventListener('click', roll)
 appBoard.addEventListener('animationend', roll)

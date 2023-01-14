@@ -350,7 +350,7 @@ h2{
 
   /* applications skateboard */
 
-  .join-us-first{
+  .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
     height: 100px;
     width: 280px;
     background:transparent;
@@ -360,7 +360,7 @@ h2{
     margin-left: 20px;
   }
 
-  .join-us-first h4{
+  .applications h4{
     font-size: 1.6rem;
   }
   .board{
@@ -528,254 +528,6 @@ h2{
     }
   }
 
-/* Animation application sun */
-
-
-.sun{
-  width: 280px;
-  height: 100px;
-  background-color: cyan;
-  border-radius: 50px;
-  z-index:2;
-  margin-left: 20px;
-  margin-top:30px;
-}
-
-.text{
-  display:flex;
-  justify-content:center;
-  position:relative;
-}
-.text h1{
-  position:absolute;
-  top: 35px;
-}
-.above{
-  display:flex;
-}
-.under{
-  display:flex;
-  
-}
-.ray{
-  width: 30px;
-  height: 30px;
-  background-color: gold;
-  transform: rotate(45deg);
-  position:relative;
-  top:-15px;
-  left:45px;
-}
-.ray2{
-  width: 30px;
-  height: 30px;
-  background-color: gold;
-  transform: rotate(45deg);
-  position:relative;
-  top:55px;
-  left:45px;
-}
-.ray3{
-  width: 30px;
-  height: 30px;
-  background-color: gold;
-  transform: rotate(45deg);
-  position:relative;
-  top:-70px;
-  left:0px;
-}
-.ray3:nth-of-type(1){
-  top:-65px;
-  left:10px;
-  transform: rotate(20deg)
-}
-.ray3:nth-of-type(2){
-  top:-65px;
-  left:-10px;
-  transform:rotate(-30deg);
-}
-.ray3:nth-of-type(3){
-  top:-65px;
-  left:-10px;
-  transform:rotate(-60deg);
-}
-.ray3:nth-of-type(4){
-  top:-70px;
-  left:8px;
-  transform:rotate(-20deg);
-}
-
-.ray4{
-  width: 30px;
-  height: 30px;
-  background-color: gold;
-  transform: rotate(45deg);
-  position:relative;
-  top:-185px;
-  left:280px;
-}
-.ray4:nth-of-type(1){
-  left: 230px;
-  top:-188px;
-  transform:rotate(-25deg);
-}
-.ray4:nth-of-type(2){
-  left: 255px;
-  top:-192px;
-  transform:rotate(30deg);
-}
-.ray4:nth-of-type(3){
-  left: 260px;
-  top:-187px;
-  transform:rotate(60deg)
-}
-.ray4:nth-of-type(4){
-  left: 235px;
-  top:-193px;
-  transform:rotate(20deg)
-}
-.ray,.ray2, .ray3, .ray4{
-  z-index:-1;
-}
-
-.ray:nth-of-type(1){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-}
-.ray:nth-of-type(2){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:0.2s;
-}
-.ray:nth-of-type(3){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:0.4s;
-}
-.ray:nth-of-type(4){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:0.6s;
-}
-.ray:nth-of-type(5){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:0.8s;
-}
-.ray:nth-of-type(6){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:1s;
-}
-
-@keyframes colors{
-  0%{
-    background:red;
-  }
-  10%{
-    background: orange;
-  }
-  20%{
-    background: yellow;
-  }
-  30%{
-    background: green;
-  }
-  40%{
-    background: blue;
-  }
-  50%{
-    background: indigo;
-  }
-  60%{
-    background: violet;
-  }
-  70%{
-    background: purple;
-  }
-  80%{
-    background: hotpink;
-  }
-  90%{
-    background: aqua;
-  }
-  100%{
-    background: marine;
-  }
-}
-
-.ray4:nth-of-type(1){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay: 1.2s;
-}
-.ray4:nth-of-type(2){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:1.4s;
-}
-.ray4:nth-of-type(3){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:1.6s;
-}
-.ray4:nth-of-type(4){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:1.8s;
-}
-
-.ray2:nth-of-type(1){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-   animation-delay:3s;
-}
-.ray2:nth-of-type(2){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:2.8s;
-}
-.ray2:nth-of-type(3){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:2.6s;
-}
-.ray2:nth-of-type(4){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:2.4s;
-}
-.ray2:nth-of-type(5){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:2.2s;
-}
-.ray2:nth-of-type(6){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:2s;
-}
-
-.ray3:nth-of-type(1){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay: 3.8s;
-}
-.ray3:nth-of-type(2){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:3.6s;
-}
-.ray3:nth-of-type(3){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:3.4s;
-}
-.ray3:nth-of-type(4){
-  animation: colors 4s linear;
-  animation-iteration-count:infinite;
-  animation-delay:3.2s;
-}
 
 
 
@@ -887,9 +639,34 @@ h2{
       transform:scale(1.3) rotate(30deg);
     }
 
+    /* skater dog animation */
+
+    .skating{
+      animation: skater-dog 2s linear;
+      animation-iteration-count: 1;
+    }
+  
+  @keyframes skater-dog{
+    20%{
+      transform:translateX(700px);
+    }
+    20%{
+      opacity:0;
+    }
+    50%{
+      opacity:0;
+      transform: translateX(-700px)
+    }
+    60%{
+      opacity:0;
+    }
+    90%{
+      opacity:0;
+    }
+  }
     /* skateboard application hover */
 
-    .join-us-first:hover .board{
+    .join-us-first:hover .board, .join-us-second:hover .board,.join-us-third:hover .board, .join-us-fourth:hover .board{
     transform: rotateX(180deg);
   }
   }
