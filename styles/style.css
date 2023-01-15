@@ -42,7 +42,7 @@ button{
   background: linear-gradient(to top left,red, orange, yellow);
 }
 
-h2{
+.design-history h2{
     color:white;
     width:200px;
     line-height:50px;
@@ -282,6 +282,25 @@ h2{
   }
 }
 
+/* copy-title */
+
+h2.copy-title{
+  color: black;
+  position:relative;
+  font-size: 38px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: -130px;
+  font-weight: 100;
+}
+h3.copy-title{
+  font-size: 2rem;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 50px;
+  font-weight: 100;
+}
+
   /* first paragraph */
 
   .first-paragraph{
@@ -291,7 +310,8 @@ h2{
     margin-right:10px;
     line-height:1.5em;
     position:relative;
-    margin-top:-135px;
+    margin-top: 50px;
+    /* margin-top:-135px; */
   }
 
   /* letter party join us now */
@@ -356,8 +376,15 @@ h2{
     background:transparent;
     position:relative;
     perspective: 1000px;
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 20px; */
+  }
+  .applications{
+    width: 100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
   }
 
   .applications h4{
@@ -371,6 +398,7 @@ h2{
     transform-style: preserve-3d;
     background: linear-gradient(to left, black, grey, black);
     border-radius:50px;
+    margin-top:50px;
   }
   
   /* Let op: verwijder het onderstaande niet, dat is voor de desktop versie */
