@@ -372,7 +372,8 @@ h3.copy-title{
 
   .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
     height: 100px;
-    width: 280px;
+    /* width: 280px; */
+    width: 320px;
     background:transparent;
     position:relative;
     perspective: 1000px;
@@ -389,6 +390,7 @@ h3.copy-title{
 
   .applications h4{
     font-size: 1.6rem;
+    /* color: #F6511D; */
   }
   .board{
     position: relative;
@@ -447,7 +449,8 @@ h3.copy-title{
     border-radius: 50px;
     position:absolute;
     top:75px;
-    left: 200px;
+    /* left: 200px; */
+    left: 240px;
     z-index:2;
   }
   .app-wheel4{
@@ -457,7 +460,8 @@ h3.copy-title{
     border-radius: 50px;
     position:absolute;
     top:10px;
-    left: 200px;
+    /* left: 200px; */
+    left: 240px;
   }
   
   .between-wheels{
@@ -474,7 +478,8 @@ h3.copy-title{
     width: 15px;
     background-color: grey;
     top:25px;
-    left: 208px;
+    /* left: 208px; */
+    left: 248px;
     position:absolute;
   }
   
@@ -506,7 +511,8 @@ h3.copy-title{
     border-radius:50%;
     position: absolute;
     top:65px;
-    left: 208px;
+    /* left: 208px; */
+    left: 248px;
   }
   .nail4{
     width:8px;
@@ -515,7 +521,8 @@ h3.copy-title{
     border-radius:50%;
     position: absolute;
     top:25px;
-    left: 208px;
+    /* left: 208px; */
+    left: 248px;
   }
 
   /* aplications skateboard animation mobile */
