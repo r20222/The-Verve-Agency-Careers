@@ -779,7 +779,18 @@ h3.copy-title{
   }
 
 
+  /* second paragraph */
 
+  .second-paragraph{
+    font-size:28px;
+    text-align:auto;
+    margin-left:10px;
+    margin-right:10px;
+    line-height:1.5em;
+    position:relative;
+    margin-top: 250px;
+    
+  }
 
 
 
