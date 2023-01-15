@@ -639,12 +639,13 @@ h3.copy-title{
   }
   
   .mouth{
-    width: 15px;
-    height: 5px;
-    background-color: black;
+    width: 20px;
+    height: 15px;
+    background-color: green;
+    border-bottom: 2px solid black;
     border-radius:50%;
     position:relative;
-    top:75px;
+    top:70px;
     right: 20px;
     transform: rotate(-10deg);
   }
