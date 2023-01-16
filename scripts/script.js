@@ -8,8 +8,8 @@ console.log(e);
 cursor.setAttribute('style', 'top: '+(e.pageY - 48.5)+"px; left: "+(e.pageX - 50)+"px;")
 })
 
-// https://www.youtube.com/watch?v=rfpRZ2t_BrQ
-// 10:14
+// I could make this cool flashlight with the help of this video: https://www.youtube.com/watch?v=rfpRZ2t_BrQ
+
 
 // design history voor mobile first
 
@@ -21,6 +21,7 @@ function gradient(){
 
 
 // skateboard dog eye section
+// I could make these eyes following the cursor thanks to this codepen: https://codepen.io/natan-sitanggang/pen/YzpZXKR?editors=1010
 
 document.querySelector('body').addEventListener('mousemove', eyeball);
 
