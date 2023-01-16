@@ -318,13 +318,13 @@ h3.copy-title{
 
   .letter-party{
     display: flex;
-    /* justify-content:flex-start, space-evenly; */
     margin-top: 80px;
     margin-left: 20px;
+    flex-wrap:wrap;
   }
   .letter-party h3{
     display:inline-block;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight:100;
     transition: 0.1s;
     position:relative;
@@ -842,10 +842,71 @@ h3.copy-title{
 
 
 
+  @media screen and (min-width: 500px) {
+
+    /* letter party letters */
+    .letter-party{
+      display:flex;
+      justify-content:center;
+    }
+    .letter-party h3{
+      font-size: 5.5rem;
+    }
 
 
+    /* vanaf 1010px gaan de header zinnen niet meer strak langs de kant */
+    /* first paragraph */
+    .first-paragraph{
+      /* font-size:28px; */
+      margin-left:auto;
+      margin-right:auto;
+      /* line-height:1.5em; */
+      /* position:relative;
+      margin-top: 50px; */
+      max-width:700px;
+      
+    }
+
+    /* second paragraph */
+
+    .second-paragraph{
+      font-size:28px;
+      /* text-align:auto; */
+      margin-left:10px;
+      margin-right:10px;
+      line-height:1.5em;
+      position:relative;
+      margin-top: 250px;
+      max-width:700px;
+    }
+  }
 
 
+  @media screen and (min-width: 900px) {
+    /* .paragraph-container{
+      max-width:1010px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      
+    } */
+.container-titles{
+  width: 80vw;
+}
+    h2.copy-title{
+      /* max-width: 1000px; */
+      text-align:center;
+      margin-left:2rem;
+      /* line-height:0px; */
+    }
+    h3.copy-title{
+      /* max-width: 1000px; */
+      text-align:center;
+      margin-top:1.5rem;
+      margin-left:-6rem;
+      line-height:0px;
+    }
+  }
 
 
 
@@ -885,6 +946,22 @@ h3.copy-title{
 
 
     /* letter partyyy */
+
+    .letter-party{
+      display:flex;
+      justify-content:center;
+    }
+    
+    .letter-party h3{
+      display:inline-block;
+      font-size: 7rem;
+      font-weight:100;
+      transition: 0.1s;
+      position:relative;
+      
+    }
+
+
 
     .letter-party h3:nth-of-type(2):hover{
     color: #F6511D;
@@ -937,3 +1014,4 @@ h3.copy-title{
     transform: rotateX(180deg);
   }
   }
+
