@@ -662,7 +662,7 @@ h3.copy-title{
   .window{
     height:120px;
     width:200px;
-    background-color:deepskyblue;
+    background-color:powderblue;
     position:relative;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -919,8 +919,8 @@ h3.copy-title{
 
     /* cursor light */
     .cursor{
-    width: 55px;
-    height:55px;
+    width: 105px;
+    height:105px;
     position:absolute;
     background-color:rgb(241, 225, 46);
     border-radius:50%;
