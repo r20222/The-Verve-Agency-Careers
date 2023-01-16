@@ -41,7 +41,7 @@ button{
 }
 
 .cool-gradient{
-  background: linear-gradient(to top left,red, orange, yellow);
+  background: linear-gradient(to top left, var(--verve-red), yellow);
 }
 
 .design-history h2{
