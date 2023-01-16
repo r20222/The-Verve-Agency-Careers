@@ -2,8 +2,10 @@
     box-sizing:border-box;
     font-family:whyte, sans-serif;
     margin:0;
-    /* padding:0 ; */
-    
+}
+
+:root{
+  --verve-red: #F6511D;
 }
 /* navigatie */
 nav{
@@ -682,7 +684,7 @@ h3.copy-title{
   .lamp1, .lamp2, .lamp3, .lamp4, .lamp5{
     width:30px;
     height: 30px;
-    background-color: red;
+    background-color:var(--verve-red);
     border-radius:50%;
   }
   
