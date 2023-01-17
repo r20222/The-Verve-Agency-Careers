@@ -19,6 +19,14 @@ function gradient(){
 }
 
 
+// design history cursor click on of
+
+designHistory.addEventListener('click', yellowLight);
+
+function yellowLight(){
+    cursor.classList.toggle('light');
+}
+
 // skateboard dog eye section
 // I could make these eyes following the cursor thanks to this codepen: https://codepen.io/natan-sitanggang/pen/YzpZXKR?editors=1010
 
