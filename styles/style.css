@@ -43,7 +43,22 @@ button{
 }
 
 .cool-gradient{
-  background: linear-gradient(to top left, var(--verve-red), yellow);
+  background: linear-gradient(to top left, var(--verve-red), orange, yellow);
+  background-size: 800%;
+  animation: gradient-movement 5s linear infinite;
+  background-position: right bottom;
+}
+
+@keyframes gradient-movement{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 90% 100%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 .design-history h2{
