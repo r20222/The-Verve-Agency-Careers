@@ -1007,7 +1007,7 @@ h3.european-agency{
     height:105px;
     position:absolute;
     background-color:transparent;
-    /* box-shadow: 0px 0px 10px 0px; */
+    
     border-radius:50%;
     position:absolute;
     z-index: 0;
@@ -1015,6 +1015,7 @@ h3.european-agency{
 
     .light{
       background-color:rgb(241, 225, 46);
+      box-shadow: 0px 0px 10px 10px rgb(241, 225, 46);
     }
 
     .cursor:hover{

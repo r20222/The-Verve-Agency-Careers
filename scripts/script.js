@@ -19,7 +19,7 @@ function gradient(){
 }
 
 
-// design history cursor click on of
+// design history cursor click on/of
 
 designHistory.addEventListener('click', yellowLight);
 
