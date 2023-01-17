@@ -6,6 +6,7 @@
 
 :root{
   --verve-red: #F6511D;
+  --verve-black: #222222;
 }
 /* navigatie */
 nav{
@@ -17,13 +18,14 @@ nav{
 h1{
     font-weight:900;
     font-size:19px;
+    color: black;
 }
 button{
     width:24px;
     height: 24px;
     border-radius:50%;
     border:none;
-    background-color:black;
+    background-color:var(--verve-black);
     cursor:pointer;
 }
 
@@ -32,7 +34,7 @@ button{
 .design-history{
     width: 100vw;
     height: 300px;
-    background-color: black;
+    background-color: var(--verve-black);
     display:flex;
     justify-content: center;
     align-items:center;
@@ -287,7 +289,7 @@ button{
 /* copy-title */
 
 h2.copy-title{
-  color: black;
+  color: var(--verve-black);
   position:relative;
   font-size: 38px;
   margin-left:10px;
@@ -296,6 +298,7 @@ h2.copy-title{
   font-weight: 100;
 }
 h3.copy-title{
+  color: var(--verve-black);
   font-size: 2rem;
   margin-left:10px;
   margin-right:10px;
@@ -306,6 +309,7 @@ h3.copy-title{
   /* first paragraph */
 
   .first-paragraph{
+    color: var(--verve-black);
     font-size:28px;
     text-align:auto;
     margin-left:10px;
@@ -319,6 +323,7 @@ h3.copy-title{
   /* letter party join us now */
 
   .letter-party{
+    color: var(--verve-black);
     display: flex;
     margin-top: 80px;
     margin-left: 20px;
@@ -373,6 +378,7 @@ h3.copy-title{
   /* applications skateboard */
 
   .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
+    
     height: 100px;
     /* width: 280px; */
     width: 320px;
@@ -662,7 +668,7 @@ h3.copy-title{
   .window{
     height:120px;
     width:200px;
-    background-color:powderblue;
+    background-color:silver;
     position:relative;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -673,7 +679,7 @@ h3.copy-title{
   .shield{
     width:300px;
     height: 80px;
-    background-color: silver;
+    background-color: var(--verve-black);
     position: relative;
     border-radius:50px;
     display:flex;
@@ -725,6 +731,7 @@ h3.copy-title{
     position: absolute;
     top:100px;
     animation: ufo-beam 10s linear infinite;
+    /* color: var(--verve-black); */
   }
   
   @keyframes ufo-beam{
@@ -765,6 +772,7 @@ h3.copy-title{
     line-height:50px;
     opacity:0;
     animation: alien-text 10s linear infinite;
+    color:var(--verve-black);
   }
   
   @keyframes alien-text{
@@ -799,7 +807,7 @@ h3.copy-title{
     line-height:1.5em;
     position:relative;
     margin-top: 250px;
-    
+    color:var(--verve-black);
   }
 
 
@@ -827,15 +835,20 @@ h3.copy-title{
   line-height:1.5em;
   position:relative;
   margin-top: 50px;
+  color:var(--verve-black);
 }
 
 /* verve quote & get in touch & european agency */
 
-h2.verve-quote, h3.get-in-touch, h3.european-agency{
+h2.verve-quote, h3.get-in-touch{
   margin-left:10px;
   margin-top:50px;
+  color:var(--verve-black);
 }
 
+h3.get-in-touch{
+  font-size: 38px;
+}
 
 /* footer */
 
@@ -843,12 +856,34 @@ footer{
   margin-top: 100px;
 }
 
+footer > ul{
+  list-style: none;
+  text-align: center;
+  margin-bottom:60px;
+}
 
+footer > ul > li{
+  margin: 16px;
+}
 
+footer a{
+  text-decoration: none;
+  color:var(--verve-black);
+}
 
-
-
-
+h3.european-agency{
+  margin-left:10px;
+  margin-top:50px;
+  color:var(--verve-black);
+  text-align:center;
+  font-size: 19px;
+  font-weight:100;
+}
+.social-media{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
 
 
 
