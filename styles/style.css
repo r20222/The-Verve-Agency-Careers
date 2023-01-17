@@ -792,7 +792,7 @@ h3.copy-title{
   /* second paragraph */
 
   .second-paragraph{
-    font-size:28px;
+    font-size:20px;
     text-align:auto;
     margin-left:10px;
     margin-right:10px;
@@ -803,12 +803,45 @@ h3.copy-title{
   }
 
 
+  /* images */
 
 
+  .img-container{
+    display:flex;
+    justify-content:center;
+  }
+  .foto1{
+    max-width: 300px;
+    margin-top: 50px;
+
+  }
 
 
+/* third paragraph & fourth paragraph*/
+
+.third-paragraph, .fourth-paragraph{
+  font-size:20px;
+  text-align:auto;
+  margin-left:10px;
+  margin-right:10px;
+  line-height:1.5em;
+  position:relative;
+  margin-top: 50px;
+}
+
+/* verve quote & get in touch & european agency */
+
+h2.verve-quote, h3.get-in-touch, h3.european-agency{
+  margin-left:10px;
+  margin-top:50px;
+}
 
 
+/* footer */
+
+footer{
+  margin-top: 100px;
+}
 
 
 
