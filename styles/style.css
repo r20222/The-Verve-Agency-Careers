@@ -304,13 +304,15 @@ button{
 /* copy-title */
 
 .hidden{
-  /* opacity:0; */
-  transform: scale(0);
-  transition:0.5s;
+  opacity:0;
+  /* transform: scale(0); */
+  transition:1s;
+  
 }
 .show{
-  /* opacity:1; */
-  transform: scale(1);
+  opacity:1;
+  /* transform: scale(1); */
+  transform: translateY(-50px);
 }
 h2.copy-title{
   color: var(--verve-black);
@@ -1064,6 +1066,9 @@ h3.european-agency{
     }
     .design-history:hover{
         cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
+    }
+    .design-history{
+      height:100vh;
     }
     .cool-gradient{
       background: black;
