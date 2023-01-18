@@ -303,6 +303,15 @@ button{
 
 /* copy-title */
 
+.hidden{
+  /* opacity:0; */
+  transform: scale(0);
+  transition:0.5s;
+}
+.show{
+  /* opacity:1; */
+  transform: scale(1);
+}
 h2.copy-title{
   color: var(--verve-black);
   position:relative;
@@ -956,14 +965,46 @@ h3.european-agency{
     /* second paragraph */
 
     .second-paragraph{
-      font-size:28px;
+      font-size:20px;
       /* text-align:auto; */
-      margin-left:10px;
-      margin-right:10px;
+      margin-left:auto;
+      margin-right:auto;
       line-height:1.5em;
       position:relative;
       margin-top: 250px;
       max-width:700px;
+    }
+
+    /* third paragraph */
+
+    .third-paragraph{
+      font-size:20px;
+      /* text-align:auto; */
+      margin-left:auto;
+      margin-right:auto;
+      line-height:1.5em;
+      position:relative;
+      margin-top: 50px;
+      max-width:700px;
+    }
+
+    /* fourth paragraph */
+
+    .fourth-paragraph{
+      font-size:20px;
+      /* text-align:auto; */
+      margin-left:auto;
+      margin-right:auto;
+      line-height:1.5em;
+      position:relative;
+      margin-top: 50px;
+      max-width:700px;
+    }
+
+    /* verve quote */
+
+    h2.verve-quote{
+      font-size:58px;
     }
   }
 
@@ -1028,6 +1069,11 @@ h3.european-agency{
       background: black;
     }
 
+    /* dit werkt nog niet:
+    .design-history{
+      overflow:hidden;
+      
+    } */
     .random-text{
       color:black;
       position:absolute;
