@@ -850,17 +850,78 @@ h3.copy-title{
   }
 
 
-  /* images */
+  /* images carousel */
 
+  .img-flexbox ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+   
+  }
+  .carousel-button{
+    border-radius:0px;
+    position:absolute;
+    background:none;
+    border: none;
+    font-size: 4rem;
+    top:50%;
+    left: 100%;
+    z-index:1;
+    opacity:0.7;
+    color: white
+  }
+  .carousel-button:hover{
+    opacity:1;
+    
+  }
 
-  .img-container{
+  .prev{
+    left:0.5rem;
+  }
+  .next{
+    left: 13.5rem;
+  }
+  .img-flexbox{
     display:flex;
     justify-content:center;
   }
-  .foto1{
+  .img-container{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    width:300px;
+    height: 300px;
+  }
+
+  .slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay:200ms;
+  }
+
+  .slide[data-active]{
+    opacity:1;
+    transition-delay: 0ms;
+  }
+
+  .slide > img{
+    
+    display: block;
+    /* object-position: center; */
+    
+  }
+
+  .foto1, .foto2, .foto3, .foto4{
     max-width: 300px;
     margin-top: 50px;
+    
+  }
 
+  .foto3, .foto4{
+    height: 300px;
+    width: 300px;
   }
 
 

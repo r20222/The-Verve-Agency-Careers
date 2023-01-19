@@ -280,10 +280,28 @@
         <p class="second-paragraph hidden">We get excited about what design and technology can do. You could say it’s an obsession. If you’re someone who's into dynamic type, the Private Views podcast or loves Laravel, who wants to shake up the status quo and build on the team’s ideas, we look forward to meeting you.</p>
 
         <!-- Afbeeldingen -->
+        <!-- heb dit gemaakt met behulp van: https://www.youtube.com/watch?v=9HcxHDS2w1s 2:23 -->
 
-        <div class="img-container hidden">
-          <img alt="The Verve" class="foto1" src="assets/The-Verve-1.jpg">
-        </div>
+        <section class="img-flexbox" aria-label="The Verve Photos">
+          <div class="img-container hidden" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&larr;</button>
+            <button class="carousel-button next" data-carousel-button="next">&rarr;</button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img alt="The Verve photo 1" class="foto1" src="assets/The-Verve-1.jpg">
+              </li>
+              <li class="slide">
+                <img alt="The Verve photo 2" class="foto2" src="assets/The-Verve-2.jpg">
+              </li>
+              <li class="slide">
+                <img alt="The Verve photo 3" class="foto3" src="assets/The-Verve-3.jpg">
+              </li>
+              <li class="slide">
+                <img alt="The Verve photo 4" class="foto4" src="assets/The-Verve-4.jpg">
+              </li>
+            </ul>
+          </div>
+        </section>
 
         <!-- Third paragraph -->
 
