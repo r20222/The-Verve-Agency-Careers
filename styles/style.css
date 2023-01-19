@@ -405,9 +405,9 @@ h3.copy-title{
 
   .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
     
-    height: 120px;
+    height: 100px;
     /* width: 280px; */
-    width: 420px;
+    width: 320px;
     background:transparent;
     position:relative;
     perspective: 1000px;
@@ -433,7 +433,7 @@ h3.copy-title{
     transition: transform 0.8s;
     transform-style: preserve-3d;
     background: linear-gradient(to left, black, grey, black);
-    border-radius:80px;
+    border-radius:50px;
     margin-top:50px;
   }
   
@@ -463,7 +463,7 @@ h3.copy-title{
     background: white;
     border-radius: 50px;
     position:absolute;
-    top:20px;
+    top:10px;
     left: 50px;
   }
   
@@ -473,7 +473,7 @@ h3.copy-title{
     background: white;
     border-radius: 50px;
     position:absolute;
-    top:85px;
+    top:75px;
     left: 50px;
   }
   .app-wheel3{
@@ -482,9 +482,9 @@ h3.copy-title{
     background: white;
     border-radius: 50px;
     position:absolute;
-    top:85px;
+    top:75px;
     /* left: 200px; */
-    left: 340px;
+    left: 240px;
     z-index:2;
   }
   .app-wheel4{
@@ -493,16 +493,16 @@ h3.copy-title{
     background: white;
     border-radius: 50px;
     position:absolute;
-    top:20px;
+    top:10px;
     /* left: 200px; */
-    left: 340px;
+    left: 240px;
   }
   
   .between-wheels{
     height:50px;
     width: 15px;
     background-color: grey;
-    top:35px;
+    top:25px;
     left: 58px;
     position:absolute;
   }
@@ -511,9 +511,9 @@ h3.copy-title{
     height:50px;
     width: 15px;
     background-color: grey;
-    top:35px;
+    top:25px;
     /* left: 208px; */
-    left: 348px;
+    left: 248px;
     position:absolute;
   }
   
@@ -526,7 +526,7 @@ h3.copy-title{
     background:black;
     border-radius:50%;
     position: absolute;
-    top:35px;
+    top:25px;
     left: 68px;
   }
   .nail2{
@@ -535,7 +535,7 @@ h3.copy-title{
     background:black;
     border-radius:50%;
     position: absolute;
-    top:75px;
+    top:65px;
     left: 68px;
   }
   .nail3{
@@ -544,9 +544,9 @@ h3.copy-title{
     background:black;
     border-radius:50%;
     position: absolute;
-    top:75px;
+    top:65px;
     /* left: 208px; */
-    left: 348px;
+    left: 248px;
   }
   .nail4{
     width:8px;
@@ -554,9 +554,9 @@ h3.copy-title{
     background:black;
     border-radius:50%;
     position: absolute;
-    top:35px;
+    top:25px;
     /* left: 208px; */
-    left: 348px;
+    left: 248px;
   }
 
   /* aplications skateboard animation mobile */
@@ -1068,7 +1068,8 @@ h3.european-agency{
         cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
     }
     .design-history{
-      height:100vh;
+      height:65vh;
+      width:100vw;
     }
     .cool-gradient{
       background: black;
@@ -1157,5 +1158,124 @@ h3.european-agency{
     .join-us-first:hover .board, .join-us-second:hover .board,.join-us-third:hover .board, .join-us-fourth:hover .board{
     transform: rotateX(180deg);
   }
+
+/* bigger skateboards */
+.board{
+  border-radius:80px;
+}
+
+.join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
+  height: 120px;
+  /* width: 280px; */
+  width: 420px;
+  background:transparent;
+  position:relative;
+  perspective: 1000px;
+  margin-top: 30px;
+  /* margin-left: 20px; */
+}
+
+/* front board wheels etc */
+.app-wheel1{
+  width: 30px;
+  height:15px;
+  background: white;
+  border-radius: 50px;
+  position:absolute;
+  top:20px;
+  left: 50px;
+}
+
+.app-wheel2{
+  width: 30px;
+  height:15px;
+  background: white;
+  border-radius: 50px;
+  position:absolute;
+  top:85px;
+  left: 50px;
+}
+.app-wheel3{
+  width: 30px;
+  height:15px;
+  background: white;
+  border-radius: 50px;
+  position:absolute;
+  top:85px;
+  /* left: 200px; */
+  left: 340px;
+  z-index:2;
+}
+.app-wheel4{
+  width: 30px;
+  height:15px;
+  background: white;
+  border-radius: 50px;
+  position:absolute;
+  top:20px;
+  /* left: 200px; */
+  left: 340px;
+}
+
+.between-wheels{
+  height:50px;
+  width: 15px;
+  background-color: grey;
+  top:35px;
+  left: 58px;
+  position:absolute;
+}
+
+.between-wheels2{
+  height:50px;
+  width: 15px;
+  background-color: grey;
+  top:35px;
+  /* left: 208px; */
+  left: 348px;
+  position:absolute;
+}
+
+
+/* back board nails etc */
+
+.nail1{
+  width:8px;
+  height:8px;
+  background:black;
+  border-radius:50%;
+  position: absolute;
+  top:35px;
+  left: 68px;
+}
+.nail2{
+  width:8px;
+  height:8px;
+  background:black;
+  border-radius:50%;
+  position: absolute;
+  top:75px;
+  left: 68px;
+}
+.nail3{
+  width:8px;
+  height:8px;
+  background:black;
+  border-radius:50%;
+  position: absolute;
+  top:75px;
+  /* left: 208px; */
+  left: 348px;
+}
+.nail4{
+  width:8px;
+  height:8px;
+  background:black;
+  border-radius:50%;
+  position: absolute;
+  top:35px;
+  /* left: 208px; */
+  left: 348px;
+}
   }
 
