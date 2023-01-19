@@ -301,8 +301,14 @@ button{
   }
 }
 
+
+
+
+
+
 /* copy-title */
 
+/* animation goes from hidden to show */
 .hidden{
   opacity:0;
   /* transform: scale(0); */
@@ -314,6 +320,8 @@ button{
   /* transform: scale(1); */
   transform: translateY(-50px);
 }
+
+
 h2.copy-title{
   color: var(--verve-black);
   position:relative;
@@ -599,6 +607,11 @@ h3.copy-title{
 
 
   /* Alien UFO with beam text */
+
+  .hide-on-phone{
+    display:none !important;
+    
+  }
 
   .ufo{
     height: 500px;
@@ -1035,10 +1048,7 @@ h3.european-agency{
       margin-left:-6rem;
       line-height:0px;
     }
-    h2.verve-quote{
-      /* text-align:center; */
-      margin-left:15rem;
-    }
+   
   }
 
 
@@ -1092,6 +1102,16 @@ h3.european-agency{
       user-select: none;
       display: inline;
   }
+
+/* dog movement on scroll */
+
+/* helaas werkt @scroll-timeline nog niet met huidige browsers:( */
+/* @scroll-timeline scroll-in-document-dog {
+  source: auto;
+  orientation: vertical;
+  scroll-offsets: 0%, 100%;
+} */
+
 
 
     /* letter partyyy */
@@ -1281,5 +1301,60 @@ h3.european-agency{
   /* left: 208px; */
   left: 348px;
 }
+
+/* adding 2 ufo's for the big screen */
+
+.ufo-container{
+  display: flex;
+}
+.hide-on-phone{
+  display:flex !important;
+}
+
+.desktop-ufo{
+  display: none;
+}
+
+h5{
+  position:relative;
+  left:70px;
+  top:180px;
+  font-size:1.5rem;
+  line-height:50px;
+  opacity:0;
+  animation: alien-text 10s linear infinite;
+  color:var(--verve-black);
+}
+
+@keyframes alien-text{
+  0%{
+    top:-150px;
+    left:0px;
+    transform: scale(0);
   }
+  30%{
+    opacity:1;
+  }
+  50%{
+  top:80px;
+  opacity:1;
+  }
+  100%{
+    transform: scale(1.5);
+    opacity:1;
+    left:123px;
+  }
+}
+
+
+/* verve quote */
+
+h2.verve-quote{
+  /* text-align:center; */
+  margin-left:15rem;
+}
+h3.get-in-touch{
+  font-weight: 100;
+}
+}
 
