@@ -1140,6 +1140,23 @@ left:500px;
   }
 
 
+  @media screen and (min-width: 36em){
+    .dog{
+      animation: skater-dog 10s linear infinite;
+      position:relative;
+      left: -30rem;
+    }
+    
+    /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
+    @keyframes skater-dog{
+    100%{
+    /* transform: translateX(200rem); */
+    left:1200px;
+    }
+    
+    }
+  }
+
   @media screen and (min-width: 56em) {
     /* .paragraph-container{
       max-width:1010px;
@@ -1226,11 +1243,11 @@ left:500px;
       background: black;
     }
 
-    /* dit werkt nog niet:
+    /* dit werkt nog niet: */
     .design-history{
-      overflow:hidden;
+      text-overflow:clip;
       
-    } */
+    }
     .random-text{
       color:black;
       position:absolute;
