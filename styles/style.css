@@ -1244,10 +1244,10 @@ left:500px;
     }
 
     /* dit werkt nog niet: */
-    .design-history{
-      text-overflow:clip;
+    /* .design-history{
+      text-overflow:hidden;
       
-    }
+    } */
     .random-text{
       color:black;
       position:absolute;
