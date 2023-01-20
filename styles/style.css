@@ -318,8 +318,20 @@ button{
 .show{
   opacity:1;
   /* transform: scale(1); */
-  transform: translateY(-50px);
+  transform: translateY(-20px);
 }
+
+
+/* dit onderstaande probeersel werkt nog niet */
+/* .scroll-carousel{
+  opacity:0;
+  transition: 1s;
+}
+
+.from-left{
+  opacity: 1;
+  transform: translateX(-10px);
+} */
 
 
 h2.copy-title{

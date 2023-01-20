@@ -150,6 +150,22 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 
+// probeersel met carousel werkt nog niet
+// const carouselImg = document.querySelectorAll(".scroll-carousel");
+// carouselImg.forEach((el) => observerCarousel.observe(el));
+
+// const observerCarousel = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) =>{
+//     console.log(entry)
+//     if (entry.isIntersecting){
+//       entry.target.classList.add('from-left');
+//     } else {
+//       entry.target.classList.remove('from-left');
+//     } 
+//   });
+// });
+
+
 // image carrousel
 // bron: https://www.youtube.com/watch?v=9HcxHDS2w1s
 
