@@ -618,6 +618,11 @@ h3.copy-title{
   }
 
 
+
+
+
+
+
   /* Alien UFO with beam text */
 
   .hide-on-phone{
@@ -1036,6 +1041,27 @@ h3.european-agency{
       font-size: 5.5rem;
     }
 
+/* skateboards applications animation */
+
+.roll-board{
+  animation: app-skateboard-roll 3s linear;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+} 
+
+@keyframes app-skateboard-roll{
+  20%{
+    transform:translateX(30%);
+  }
+  
+  50%{
+    opacity:1;
+    transform: translateX(-30%)
+  }
+ 
+}
+
+
 
     /* vanaf 1010px gaan de header zinnen niet meer strak langs de kant */
     /* first paragraph */
@@ -1122,6 +1148,27 @@ h3.european-agency{
       line-height:0px;
     }
    
+/* skateboard animatie (applications) groter scherm */
+
+.roll-board{
+  animation: app-skateboard-roll 3s linear;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+} 
+
+@keyframes app-skateboard-roll{
+  20%{
+    transform:translateX(50%);
+  }
+  
+  50%{
+    opacity:1;
+    transform: translateX(-50%)
+  }
+ 
+}
+
+
   }
 
 
@@ -1255,6 +1302,27 @@ h3.european-agency{
     .join-us-first:hover .board, .join-us-second:hover .board,.join-us-third:hover .board, .join-us-fourth:hover .board{
     transform: rotateX(180deg);
   }
+
+/* desktop animatie voor skateboards */
+
+.roll-board{
+  animation: app-skateboard-roll 3s linear;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+} 
+
+@keyframes app-skateboard-roll{
+  20%{
+    transform:translateX(50%);
+  }
+  
+  50%{
+    opacity:1;
+    transform: translateX(-50%)
+  }
+ 
+}
+
 
 /* bigger skateboards */
 .board{
