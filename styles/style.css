@@ -1030,7 +1030,7 @@ h3.european-agency{
 
 
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 31em ) {
 
     /* letter party letters */
     .letter-party{
@@ -1060,8 +1060,6 @@ h3.european-agency{
   }
  
 }
-
-
 
     /* vanaf 1010px gaan de header zinnen niet meer strak langs de kant */
     /* first paragraph */
@@ -1123,7 +1121,7 @@ h3.european-agency{
   }
 
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 56em) {
     /* .paragraph-container{
       max-width:1010px;
       display:flex;
@@ -1175,7 +1173,7 @@ h3.european-agency{
 
 
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 80em) {
 
 
     /* cursor light */
