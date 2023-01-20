@@ -1041,6 +1041,25 @@ h3.european-agency{
       font-size: 5.5rem;
     }
 
+ /* skater dog animation */
+
+ .dog{
+  animation: skater-dog 10s linear infinite;
+  position:relative;
+  left: -30rem;
+}
+
+/* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
+@keyframes skater-dog{
+100%{
+/* transform: translateX(200rem); */
+left:500px;
+}
+
+}
+
+
+
 /* skateboards applications animation */
 
 .roll-board{
@@ -1270,31 +1289,25 @@ h3.european-agency{
       transform:scale(1.3) rotate(30deg);
     }
 
-    /* skater dog animation */
 
-    .skating{
-      animation: skater-dog 2s linear;
-      animation-iteration-count: 1;
-    }
-  
-  @keyframes skater-dog{
-    20%{
-      transform:translateX(700px);
-    }
-    20%{
-      opacity:0;
-    }
-    50%{
-      opacity:0;
-      transform: translateX(-700px)
-    }
-    60%{
-      opacity:0;
-    }
-    90%{
-      opacity:0;
-    }
-  }
+ /* skater dog animation */
+
+ .dog{
+  animation: skater-dog 10s linear infinite;
+  position:relative;
+  left: -30rem;
+}
+
+/* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
+@keyframes skater-dog{
+100%{
+/* transform: translateX(200rem); */
+left:1500px;
+}
+
+}
+   
+
     /* skateboard application hover */
 
     .join-us-first:hover .board, .join-us-second:hover .board,.join-us-third:hover .board, .join-us-fourth:hover .board{
