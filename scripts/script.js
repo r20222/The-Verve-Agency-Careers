@@ -64,7 +64,7 @@ function skate() {
 
 // join us now!!! letter party
 
-const allLetters = document.querySelectorAll('.letter-party h3');
+const allLetters = document.querySelectorAll('.letter-party span');
 
 allLetters.forEach(function(letter) {
   letter.addEventListener('click', ()=> {

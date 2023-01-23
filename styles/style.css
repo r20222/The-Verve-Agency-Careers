@@ -7,6 +7,7 @@
 :root{
   --verve-red: #F6511D;
   --verve-black: #222222;
+  --verve-blue: #012024;
 }
 /* navigatie */
 nav{
@@ -87,23 +88,6 @@ button{
     cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
 } */
 
-
-
-.walt{
-    color:black;
-    position:absolute;
-    top:57px;
-    z-index:2;
-    display: none;
-}
-.amy{
-    color:black;
-    width:80px;
-    position:absolute;
-    left:20px;
-    z-index:2;
-    display: none;
-}
 .random-text{
   color:black;
   position:absolute;
@@ -333,7 +317,6 @@ button{
   transform: translateX(-10px);
 } */
 
-
 h2.copy-title{
   color: var(--verve-black);
   position:relative;
@@ -376,8 +359,10 @@ h3.copy-title{
     flex-wrap:wrap;
   }
   .letter-party h3{
-    display:inline-block;
     font-size: 3.5rem;
+  }
+  .letter-party h3 span{
+    display:inline-block;
     font-weight:100;
     transition: 0.1s;
     position:relative;
@@ -386,26 +371,6 @@ h3.copy-title{
     margin-right:20px;
   }
 
-  /* Dit onderstaande niet verwijderen, dit is voor de desktop versie :) */
-  /* .letter-party h3:nth-of-type(2):hover{
-    color: #F6511D;
-  }
-  .letter-party h3:nth-of-type(4):hover{
-    color: #F6511D;
-  }
-  .letter-party h3:nth-of-type(6):hover{
-    color: #F6511D;
-  }
-  .letter-party h3:nth-of-type(8):hover{
-    color: #F6511D;
-  }
-  .letter-party h3:nth-of-type(10):hover{
-    color: #F6511D;
-  }
-  .letter-party h3:hover{
-    color:#012024;
-    transform:scale(1.3) rotate(30deg);
-  } */
   .move-letter{
     animation-name: remove;
     animation-duration:15s;
@@ -420,6 +385,44 @@ h3.copy-title{
       opacity:1;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* applications skateboard */
 
@@ -1284,25 +1287,23 @@ left:500px;
       
     }
 
-
-
-    .letter-party h3:nth-of-type(2):hover{
-    color: #F6511D;
+    .letter-party span:nth-of-type(2):hover{
+    color: var(--verve-red);
     }
-    .letter-party h3:nth-of-type(4):hover{
-      color: #F6511D;
+    .letter-party span:nth-of-type(4):hover{
+      color: var(--verve-red);
     }
-    .letter-party h3:nth-of-type(6):hover{
-      color: #F6511D;
+    .letter-party span:nth-of-type(6):hover{
+      color: var(--verve-red);
     }
-    .letter-party h3:nth-of-type(8):hover{
-      color: #F6511D;
+    .letter-party span:nth-of-type(8):hover{
+      color: var(--verve-red);
     }
-    .letter-party h3:nth-of-type(10):hover{
-      color: #F6511D;
+    .letter-party span:nth-of-type(10):hover{
+      color: var(--verve-red);
     }
-    .letter-party h3:hover{
-      color:#012024;
+    .letter-party h3 span:hover{
+      color:var(--verve-blue);
       transform:scale(1.3) rotate(30deg);
     }
 
