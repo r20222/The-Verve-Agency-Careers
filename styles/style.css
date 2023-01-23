@@ -831,7 +831,33 @@ h3.european-agency{
   justify-content:center;
   margin-top:50px;
 }
-
+.facebook{
+  opacity: 0.8;
+  transition-duration: 500ms;
+}
+.facebook:hover{
+  opacity: 1;
+  color: var(--verve-blue)
+}
+.instagram{
+  opacity: 0.8;
+  transition-duration: 500ms;
+}
+.instagram:hover{
+  opacity: 1;
+  color: var(--verve-blue)
+}
+.linkedin{
+  opacity: 0.8;
+  transition-duration: 500ms;
+}
+.linkedin:hover{
+  opacity: 1;
+  color: var(--verve-blue)
+}
+.footer-desktop-phone{
+  display: none;
+}
 /* Media queries */
 /* Media queries */
 /* Media queries */
@@ -1235,5 +1261,32 @@ h2.verve-quote{
 }
 h3.get-in-touch{
   font-weight: 100;
+}
+
+/* footer */
+.footer-desktop-phone{
+  display: flex; 
+}
+footer{
+  margin-top: 180px;
+  margin-left: 16px;
+  margin-bottom:20px;
+  display:flex;
+  justify-content:space-between;
+}
+footer > ul{
+  display:flex;
+}
+footer > ul > li{
+  margin: 16px;
+  font-size: 19px;
+}
+h3.european-agency{
+  margin-left:10px;
+  margin-top:16px;
+  font-size: 19px;
+}
+.social-media{
+  margin-top:0px;
 }
 }
