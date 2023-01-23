@@ -3,7 +3,10 @@
     font-family:whyte, sans-serif;
     margin:0;
 }
-
+/* hier werkt overflow-x ook wel, het ligt denk ik aan de browser */
+html{
+  overflow-x:hidden;
+}
 :root{
   --verve-red: #F6511D;
   --verve-black: #222222;
@@ -1048,7 +1051,9 @@ h3.european-agency{
     }
 
  /* skater dog animation */
-
+ /* html{
+  overflow-x:hidden;
+} */
  .dog{
   animation: skater-dog 10s linear infinite;
   position:relative;
@@ -1147,6 +1152,10 @@ left:500px;
 
 
   @media screen and (min-width: 36em){
+    /* ik snap niet waarom de overflow-x hier wel werkt voor desktop, maar op andere schermen helpt het niet? */
+    html{
+      overflow-x:hidden;
+    }
     .dog{
       animation: skater-dog 10s linear infinite;
       position:relative;
@@ -1217,6 +1226,9 @@ left:500px;
 
   @media screen and (min-width: 80em) {
 
+    /* html{
+      overflow-x:hidden;
+    } */
 
     /* cursor light */
     .cursor{
@@ -1313,17 +1325,19 @@ left:500px;
 
  /* skater dog animation */
 
+ 
  .dog{
   animation: skater-dog 10s linear infinite;
   position:relative;
   left: -30rem;
+  right: auto;
 }
 
 /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
 @keyframes skater-dog{
 100%{
-/* transform: translateX(200rem); */
-left:1500px;
+transform: translateX(300rem);
+/* left:1500px; */
 }
 
 }
