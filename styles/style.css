@@ -12,6 +12,17 @@ html{
   --verve-black: #222222;
   --verve-blue: #012024;
 }
+
+/* scroll animation goes from hidden to show */
+.hidden{
+  opacity:0;
+  transition:1s;
+}
+.show{
+  opacity:1;
+  transform: translateY(-20px);
+}
+
 /* navigatie */
 nav{
     margin: 15px;
@@ -34,7 +45,6 @@ button{
 }
 
 /* first section */
-
 .design-history{
     width: 100vw;
     height: 300px;
@@ -43,16 +53,13 @@ button{
     justify-content: center;
     align-items:center;
     overflow:hidden;
-    /* opacity:0.8; */
 }
-
 .cool-gradient{
   background: linear-gradient(to top left, var(--verve-red), orange, yellow);
   background-size: 800%;
   animation: gradient-movement 5s linear infinite;
   background-position: right bottom;
 }
-
 @keyframes gradient-movement{
   0%{
     background-position: 0% 50%;
@@ -64,7 +71,6 @@ button{
     background-position: 0% 50%;
   }
 }
-
 .design-history h2{
     color:white;
     width:200px;
@@ -73,24 +79,6 @@ button{
     z-index: 2;
     display: block;
 }
-
-/* Deze onderstaande dingen niet verwijderen, dit is de cursor voor de desktop versie */
-/* .cursor{
-    width: 35px;
-    height:35px;
-    position:absolute;
-    background-color:rgb(241, 225, 46);
-    border-radius:50%;
-    position:absolute;
-    z-index: 0;
-} */
-/* .cursor:hover{
-  opacity:1;
-} */
-/* .design-history:hover{
-    cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
-} */
-
 .random-text{
   color:black;
   position:absolute;
@@ -101,7 +89,6 @@ button{
 }
 
 /* dog on skateboard */
-
 .dog{
     background-color: transparent;
     position:relative;
@@ -111,7 +98,6 @@ button{
     left:-50px;
     top: -90px;
   }
-  
   .head{
     width:120px;
     height:68px;
@@ -142,7 +128,6 @@ button{
     top:10px;
     border-radius:50%;
   }
-  
   .eye{
     width:20px;
     height:20px;
@@ -171,9 +156,7 @@ button{
     top:160px;
     right:140px; 
     transform: rotate(-30deg);
-    
   }
-  
   .paw1{
     height:60px;
     width:30px;
@@ -195,7 +178,6 @@ button{
     transform:rotate(-30deg);
     z-index: 2;
   }
-  
   .back-paw{
     width:80px;
     height: 50px;
@@ -207,7 +189,6 @@ button{
     transform:rotate(-10deg);
     z-index:2;
   }
-  
   .tail{
     width:50px;
     height:50px;
@@ -249,13 +230,11 @@ button{
   }
 
   /* dog animation */
-
 .ear-animation{
   animation: speed 4s linear;
   animation-iteration-count:1;
   transition:3s;
 }
-
 @keyframes speed{
   50%{
     left: -20px;
@@ -263,12 +242,10 @@ button{
     transform: rotate(90deg);
   }
 }
-
   .skating{
     animation: skater-dog 2s linear;
     animation-iteration-count: 1;
   }
-
 @keyframes skater-dog{
   20%{
     transform:translateX(700px);
@@ -288,38 +265,7 @@ button{
   }
 }
 
-
-
-
-
-
 /* copy-title */
-
-/* animation goes from hidden to show */
-.hidden{
-  opacity:0;
-  /* transform: scale(0); */
-  transition:1s;
-  
-}
-.show{
-  opacity:1;
-  /* transform: scale(1); */
-  transform: translateY(-20px);
-}
-
-
-/* dit onderstaande probeersel werkt nog niet */
-/* .scroll-carousel{
-  opacity:0;
-  transition: 1s;
-}
-
-.from-left{
-  opacity: 1;
-  transform: translateX(-10px);
-} */
-
 h2.copy-title{
   color: var(--verve-black);
   position:relative;
@@ -339,7 +285,6 @@ h3.copy-title{
 }
 
   /* first paragraph */
-
   .first-paragraph{
     color: var(--verve-black);
     font-size:28px;
@@ -349,11 +294,9 @@ h3.copy-title{
     line-height:1.5em;
     position:relative;
     margin-top: 50px;
-    /* margin-top:-135px; */
   }
 
   /* letter party join us now */
-
   .letter-party{
     color: var(--verve-black);
     display: flex;
@@ -373,13 +316,11 @@ h3.copy-title{
   .join, .us, .now{
     margin-right:20px;
   }
-
   .move-letter{
     animation-name: remove;
     animation-duration:15s;
     animation-iteration-count:1;
   }
-  
   @keyframes remove{
     from{
       opacity:0;
@@ -389,56 +330,14 @@ h3.copy-title{
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* applications skateboard */
-
   .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
-    
     height: 100px;
-    /* width: 280px; */
     width: 320px;
     background:transparent;
     position:relative;
     perspective: 1000px;
     margin-top: 30px;
-    /* margin-left: 20px; */
   }
   .applications{
     width: 100vw;
@@ -447,10 +346,9 @@ h3.copy-title{
     justify-content:center;
     align-items:center;
   }
-
   .applications h4{
     font-size: 1.6rem;
-    /* color: #F6511D; */
+    color: black;
   }
   .board{
     position: relative;
@@ -462,12 +360,6 @@ h3.copy-title{
     border-radius:50px;
     margin-top:50px;
   }
-  
-  /* Let op: verwijder het onderstaande niet, dat is voor de desktop versie */
-  /* .join-us-first:hover .board{
-    transform: rotateX(180deg);
-  } */
-  
   .board-front, .board-back{
     position: absolute;
     width: 100%;
@@ -482,6 +374,7 @@ h3.copy-title{
   .board-back{
     transform: rotateX(180deg);
   }
+
   /* front board wheels etc */
   .app-wheel1{
     width: 30px;
@@ -492,7 +385,6 @@ h3.copy-title{
     top:10px;
     left: 50px;
   }
-  
   .app-wheel2{
     width: 30px;
     height:15px;
@@ -509,7 +401,6 @@ h3.copy-title{
     border-radius: 50px;
     position:absolute;
     top:75px;
-    /* left: 200px; */
     left: 240px;
     z-index:2;
   }
@@ -520,10 +411,8 @@ h3.copy-title{
     border-radius: 50px;
     position:absolute;
     top:10px;
-    /* left: 200px; */
     left: 240px;
   }
-  
   .between-wheels{
     height:50px;
     width: 15px;
@@ -532,20 +421,16 @@ h3.copy-title{
     left: 58px;
     position:absolute;
   }
-  
   .between-wheels2{
     height:50px;
     width: 15px;
     background-color: grey;
     top:25px;
-    /* left: 208px; */
     left: 248px;
     position:absolute;
   }
   
-  
   /* back board nails etc */
-  
   .nail1{
     width:8px;
     height:8px;
@@ -571,7 +456,6 @@ h3.copy-title{
     border-radius:50%;
     position: absolute;
     top:65px;
-    /* left: 208px; */
     left: 248px;
   }
   .nail4{
@@ -581,29 +465,14 @@ h3.copy-title{
     border-radius:50%;
     position: absolute;
     top:25px;
-    /* left: 208px; */
     left: 248px;
   }
 
   /* aplications skateboard animation mobile */
-
-/* onderstaande animatie werkt niet samen met andere animatie:( */
-  /* .flip-over-board{
-    animation: flip-skate-board 2s linear;
-    animation-iteration-count: 1;
-  }
-  @keyframes flip-skate-board{
-    100%{
-      transform: rotateX(180deg);
-    }
-  } */
-
   .roll-board{
     animation: app-skateboard-roll 2s linear;
     animation-iteration-count: 1;
-    /* animation-delay: 2s; */
   } 
-
   @keyframes app-skateboard-roll{
     20%{
       transform:translateX(600px);
@@ -615,27 +484,15 @@ h3.copy-title{
       opacity:0;
       transform: translateX(-600px)
     }
-    60%{
-      opacity:0;
-    }
     90%{
       opacity:0;
     }
   }
 
-
-
-
-
-
-
   /* Alien UFO with beam text */
-
   .hide-on-phone{
     display:none !important;
-    
   }
-
   .ufo{
     height: 500px;
     width:100vw;
@@ -643,12 +500,10 @@ h3.copy-title{
     position:relative;
     top: 150px;
     display:flex;
-    /* justify-content: flex-start; */
     align-items: center;
     flex-direction:column;
     overflow:hidden;
   }
-  
   .alien{
     width:80px;
     height: 100px;
@@ -658,7 +513,6 @@ h3.copy-title{
     top:25px;
     display:flex;
   }
-  
   .eye1{
     width:25px;
     height: 40px;
@@ -699,7 +553,6 @@ h3.copy-title{
     left:10px;
     animation: pupil-animation 4s linear infinite;
   }
-  
   @keyframes pupil-animation{
     10%{
       background-color:black;
@@ -714,7 +567,6 @@ h3.copy-title{
       left: 15px;
     }
   }
-  
   .mouth{
     width: 20px;
     height: 15px;
@@ -726,7 +578,6 @@ h3.copy-title{
     right: 20px;
     transform: rotate(-10deg);
   }
-  
   .window{
     height:120px;
     width:200px;
@@ -776,13 +627,13 @@ h3.copy-title{
     animation: lights 2s linear infinite;
     animation-delay: 0.8s;
   }
-  
   @keyframes lights {
     50%{
       background: gold;
     }
   }
   
+  /* animation ufo beam */
   .beam{
     height: 400px;
     clip-path: polygon(50% 0%,
@@ -793,9 +644,7 @@ h3.copy-title{
     position: absolute;
     top:100px;
     animation: ufo-beam 10s linear infinite;
-    /* color: var(--verve-black); */
   }
-  
   @keyframes ufo-beam{
     0%{
        clip-path: polygon(50% 0%,
@@ -804,15 +653,12 @@ h3.copy-title{
                       0% 100%);
     }
     10%{
-      
        clip-path: polygon(50% 0%,
                      100% 100%,
                      50% 100%,
                       0% 100%);
     }
-   
     90%{
-    
        clip-path: polygon(50% 0%,
                      100% 100%,
                      50% 100%,
@@ -825,7 +671,6 @@ h3.copy-title{
                       0% 100%);
     }
   }
-  
   h5{
     position:relative;
     left:70px;
@@ -836,7 +681,6 @@ h3.copy-title{
     animation: alien-text 10s linear infinite;
     color:var(--verve-black);
   }
-  
   @keyframes alien-text{
     0%{
       top:-150px;
@@ -848,7 +692,6 @@ h3.copy-title{
     }
     50%{
     top:80px;
-    /* transform: scale(1); */
     opacity:1;
     }
     100%{
@@ -858,9 +701,7 @@ h3.copy-title{
     }
   }
 
-
   /* second paragraph */
-
   .second-paragraph{
     font-size:20px;
     text-align:auto;
@@ -872,14 +713,11 @@ h3.copy-title{
     color:var(--verve-black);
   }
 
-
   /* images carousel */
-
   .img-flexbox ul{
     list-style: none;
     padding: 0;
     margin:0;
-   
   }
   .carousel-button{
     border-radius:0px;
@@ -895,9 +733,7 @@ h3.copy-title{
   }
   .carousel-button:hover{
     opacity:1;
-    
   }
-
   .prev{
     left:0.5rem;
   }
@@ -915,7 +751,6 @@ h3.copy-title{
     width:300px;
     height: 300px;
   }
-
   .slide{
     position: absolute;
     inset: 0;
@@ -923,33 +758,24 @@ h3.copy-title{
     transition: 200ms opacity ease-in-out;
     transition-delay:200ms;
   }
-
   .slide[data-active]{
     opacity:1;
     transition-delay: 0ms;
   }
-
   .slide > img{
-    
     display: block;
     /* object-position: center; */
-    
   }
-
   .foto1, .foto2, .foto3, .foto4{
     max-width: 300px;
     margin-top: 50px;
-    
   }
-
   .foto3, .foto4{
     height: 300px;
     width: 300px;
   }
 
-
 /* third paragraph & fourth paragraph*/
-
 .third-paragraph, .fourth-paragraph{
   font-size:20px;
   text-align:auto;
@@ -961,35 +787,29 @@ h3.copy-title{
   color:var(--verve-black);
 }
 
-/* verve quote & get in touch & european agency */
-
+/* verve quote & get in touch */
 h2.verve-quote, h3.get-in-touch{
   margin-left:10px;
   margin-top:50px;
   color:var(--verve-black);
 }
-
 h3.get-in-touch{
   font-size: 38px;
 }
 
 /* footer */
-
 footer{
   margin-top: 100px;
 }
-
 footer > ul{
   list-style: none;
   text-align: center;
   margin-bottom:60px;
   padding-left: 0px;
 }
-
 footer > ul > li{
   margin: 16px;
 }
-
 footer a{
   text-decoration: none;
   color:var(--verve-black);
@@ -1012,33 +832,12 @@ h3.european-agency{
   margin-top:50px;
 }
 
+/* Media queries */
+/* Media queries */
+/* Media queries */
+/* Media queries */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* media querie 496px */
   @media screen and (min-width: 31em ) {
 
     /* letter party letters */
@@ -1050,65 +849,45 @@ h3.european-agency{
       font-size: 5.5rem;
     }
 
- /* skater dog animation */
- /* html{
-  overflow-x:hidden;
-} */
- .dog{
-  animation: skater-dog 10s linear infinite;
-  position:relative;
-  left: -30rem;
-}
+    /* skater dog animation */
+    .dog{
+      animation: skater-dog 10s linear infinite;
+      position:relative;
+      left: -30rem;
+    }
+    /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
+    @keyframes skater-dog{
+    100%{
+    transform: translateX(150rem);
+      }
+    }
 
-/* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
-@keyframes skater-dog{
-100%{
-/* transform: translateX(200rem); */
-left:500px;
-}
-
-}
-
-
-
-/* skateboards applications animation */
-
-.roll-board{
-  animation: app-skateboard-roll 3s linear;
-  animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-} 
-
-@keyframes app-skateboard-roll{
-  20%{
-    transform:translateX(30%);
-  }
-  
-  50%{
-    opacity:1;
-    transform: translateX(-30%)
-  }
- 
-}
+    /* skateboards applications animation */
+    .roll-board{
+      animation: app-skateboard-roll 3s linear;
+      animation-iteration-count: 1;
+    } 
+    @keyframes app-skateboard-roll{
+      20%{
+        transform:translateX(30%);
+      }
+      50%{
+        opacity:1;
+        transform: translateX(-30%)
+      }
+    }
 
     /* vanaf 1010px gaan de header zinnen niet meer strak langs de kant */
     /* first paragraph */
     .first-paragraph{
-      /* font-size:28px; */
       margin-left:auto;
       margin-right:auto;
-      /* line-height:1.5em; */
-      /* position:relative;
-      margin-top: 50px; */
       max-width:700px;
-      
     }
 
     /* second paragraph */
-
     .second-paragraph{
       font-size:20px;
-      /* text-align:auto; */
       margin-left:auto;
       margin-right:auto;
       line-height:1.5em;
@@ -1118,10 +897,8 @@ left:500px;
     }
 
     /* third paragraph */
-
     .third-paragraph{
       font-size:20px;
-      /* text-align:auto; */
       margin-left:auto;
       margin-right:auto;
       line-height:1.5em;
@@ -1131,10 +908,8 @@ left:500px;
     }
 
     /* fourth paragraph */
-
     .fourth-paragraph{
       font-size:20px;
-      /* text-align:auto; */
       margin-left:auto;
       margin-right:auto;
       line-height:1.5em;
@@ -1144,13 +919,12 @@ left:500px;
     }
 
     /* verve quote */
-
     h2.verve-quote{
       font-size:58px;
     }
   }
 
-
+/* media querie 576px */
   @media screen and (min-width: 36em){
     /* ik snap niet waarom de overflow-x hier wel werkt voor desktop, maar op andere schermen helpt het niet? */
     html{
@@ -1161,36 +935,25 @@ left:500px;
       position:relative;
       left: -30rem;
     }
-    
     /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
     @keyframes skater-dog{
     100%{
-    /* transform: translateX(200rem); */
-    left:1200px;
+    transform: translateX(200rem);
     }
-    
     }
   }
 
+  /* media querie 896px */
   @media screen and (min-width: 56em) {
-    /* .paragraph-container{
-      max-width:1010px;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      
-    } */
-.container-titles{
-  width: 80vw;
-}
+    
+    .container-titles{
+      width: 80vw;
+    }
     h2.copy-title{
-      /* max-width: 1000px; */
       text-align:center;
       margin-left:2rem;
-      /* line-height:0px; */
     }
     h3.copy-title{
-      /* max-width: 1000px; */
       text-align:center;
       margin-top:1.5rem;
       margin-left:-6rem;
@@ -1198,37 +961,24 @@ left:500px;
     }
    
 /* skateboard animatie (applications) groter scherm */
+    .roll-board{
+      animation: app-skateboard-roll 3s linear;
+      animation-iteration-count: 1;
+    } 
+    @keyframes app-skateboard-roll{
+      20%{
+        transform:translateX(50%);
+      }
+      
+      50%{
+        opacity:1;
+        transform: translateX(-50%)
+      }
+      }
+      }
 
-.roll-board{
-  animation: app-skateboard-roll 3s linear;
-  animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-} 
-
-@keyframes app-skateboard-roll{
-  20%{
-    transform:translateX(50%);
-  }
-  
-  50%{
-    opacity:1;
-    transform: translateX(-50%)
-  }
- 
-}
-
-
-  }
-
-
-
-
-
+/* media querie 1280px */
   @media screen and (min-width: 80em) {
-
-    /* html{
-      overflow-x:hidden;
-    } */
 
     /* cursor light */
     .cursor{
@@ -1236,17 +986,14 @@ left:500px;
     height:105px;
     position:absolute;
     background-color:transparent;
-    
     border-radius:50%;
     position:absolute;
     z-index: 0;
     }
-
     .light{
       background-color:rgb(241, 225, 46);
       box-shadow: 0px 0px 10px 10px rgb(241, 225, 46);
     }
-
     .cursor:hover{
       opacity:1;
     }
@@ -1260,12 +1007,6 @@ left:500px;
     .cool-gradient{
       background: black;
     }
-
-    /* dit werkt nog niet: */
-    /* .design-history{
-      text-overflow:hidden;
-      
-    } */
     .random-text{
       color:black;
       position:absolute;
@@ -1273,35 +1014,20 @@ left:500px;
       z-index:2;
       user-select: none;
       display: inline;
-  }
-
-/* dog movement on scroll */
-
-/* helaas werkt @scroll-timeline nog niet met huidige browsers:( */
-/* @scroll-timeline scroll-in-document-dog {
-  source: auto;
-  orientation: vertical;
-  scroll-offsets: 0%, 100%;
-} */
-
-
+    }
 
     /* letter partyyy */
-
     .letter-party{
       display:flex;
       justify-content:center;
     }
-    
     .letter-party h3{
       display:inline-block;
       font-size: 7rem;
       font-weight:100;
       transition: 0.1s;
       position:relative;
-      
     }
-
     .letter-party span:nth-of-type(2):hover{
     color: var(--verve-red);
     }
@@ -1322,68 +1048,52 @@ left:500px;
       transform:scale(1.3) rotate(30deg);
     }
 
-
- /* skater dog animation */
-
- 
- .dog{
-  animation: skater-dog 10s linear infinite;
-  position:relative;
-  left: -30rem;
-  right: auto;
-}
-
-/* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
-@keyframes skater-dog{
-100%{
-transform: translateX(300rem);
-/* left:1500px; */
-}
-
-}
+  /* skater dog animation */
+  .dog{
+    animation: skater-dog 10s linear infinite;
+    position:relative;
+    left: -30rem;
+    right: auto;
+    }
+    /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
+    @keyframes skater-dog{
+    100%{
+    transform: translateX(300rem);
+    }
+    }
    
-
     /* skateboard application hover */
 
     .join-us-first:hover .board, .join-us-second:hover .board,.join-us-third:hover .board, .join-us-fourth:hover .board{
     transform: rotateX(180deg);
-  }
+    }
 
-/* desktop animatie voor skateboards */
-
-.roll-board{
-  animation: app-skateboard-roll 3s linear;
-  animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-} 
-
-@keyframes app-skateboard-roll{
-  20%{
-    transform:translateX(50%);
-  }
-  
-  50%{
-    opacity:1;
-    transform: translateX(-50%)
-  }
- 
-}
-
+    /* desktop animatie voor skateboards */
+    .roll-board{
+      animation: app-skateboard-roll 3s linear;
+      animation-iteration-count: 1;
+    } 
+    @keyframes app-skateboard-roll{
+      20%{
+        transform:translateX(50%);
+      }
+      50%{
+        opacity:1;
+        transform: translateX(-50%)
+      }
+    }
 
 /* bigger skateboards */
 .board{
   border-radius:80px;
 }
-
 .join-us-first, .join-us-second, .join-us-third, .join-us-fourth{
   height: 120px;
-  /* width: 280px; */
   width: 420px;
   background:transparent;
   position:relative;
   perspective: 1000px;
   margin-top: 30px;
-  /* margin-left: 20px; */
 }
 
 /* front board wheels etc */
@@ -1396,7 +1106,6 @@ transform: translateX(300rem);
   top:20px;
   left: 50px;
 }
-
 .app-wheel2{
   width: 30px;
   height:15px;
@@ -1413,7 +1122,6 @@ transform: translateX(300rem);
   border-radius: 50px;
   position:absolute;
   top:85px;
-  /* left: 200px; */
   left: 340px;
   z-index:2;
 }
@@ -1424,10 +1132,8 @@ transform: translateX(300rem);
   border-radius: 50px;
   position:absolute;
   top:20px;
-  /* left: 200px; */
   left: 340px;
 }
-
 .between-wheels{
   height:50px;
   width: 15px;
@@ -1436,20 +1142,16 @@ transform: translateX(300rem);
   left: 58px;
   position:absolute;
 }
-
 .between-wheels2{
   height:50px;
   width: 15px;
   background-color: grey;
   top:35px;
-  /* left: 208px; */
   left: 348px;
   position:absolute;
 }
 
-
 /* back board nails etc */
-
 .nail1{
   width:8px;
   height:8px;
@@ -1475,7 +1177,6 @@ transform: translateX(300rem);
   border-radius:50%;
   position: absolute;
   top:75px;
-  /* left: 208px; */
   left: 348px;
 }
 .nail4{
@@ -1485,23 +1186,19 @@ transform: translateX(300rem);
   border-radius:50%;
   position: absolute;
   top:35px;
-  /* left: 208px; */
   left: 348px;
 }
 
 /* adding 2 ufo's for the big screen */
-
 .ufo-container{
   display: flex;
 }
 .hide-on-phone{
   display:flex !important;
 }
-
 .desktop-ufo{
   display: none;
 }
-
 h5{
   position:relative;
   left:70px;
@@ -1512,7 +1209,6 @@ h5{
   animation: alien-text 10s linear infinite;
   color:var(--verve-black);
 }
-
 @keyframes alien-text{
   0%{
     top:-150px;
@@ -1533,15 +1229,11 @@ h5{
   }
 }
 
-
 /* verve quote */
-
 h2.verve-quote{
-  /* text-align:center; */
   margin-left:15rem;
 }
 h3.get-in-touch{
   font-weight: 100;
 }
 }
-

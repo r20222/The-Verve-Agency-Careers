@@ -1,5 +1,4 @@
 // Design history section voor desktop
-
 const cursor = document.querySelector('.cursor');
 const designHistory = document.querySelector('.design-history');
 
@@ -11,7 +10,6 @@ cursor.setAttribute('style', 'top: '+(e.pageY - 48.5)+"px; left: "+(e.pageX - 50
 
 
 // design history voor mobile first
-
 designHistory.addEventListener('click', gradient);
 
 function gradient(){
@@ -20,7 +18,6 @@ function gradient(){
 
 
 // design history cursor click on/of
-
 designHistory.addEventListener('click', yellowLight);
 
 function yellowLight(){
@@ -29,9 +26,7 @@ function yellowLight(){
 
 // skateboard dog eye section
 // I could make these eyes following the cursor thanks to this codepen: https://codepen.io/natan-sitanggang/pen/YzpZXKR?editors=1010
-
 document.querySelector('body').addEventListener('mousemove', eyeball);
-
 
 function eyeball(){
   var eye = document.querySelector('.eye');
@@ -44,7 +39,6 @@ function eyeball(){
 }
 
 // skateboard dog animation
-
 const clickDog = document.querySelector('.body')
 const completeDog = document.querySelector('.dog')
 const ear = document.querySelector('.ear')
@@ -60,10 +54,7 @@ function skate() {
   ear.classList.toggle('ear-animation')
 }
 
-
-
 // join us now!!! letter party
-
 const allLetters = document.querySelectorAll('.letter-party span');
 
 allLetters.forEach(function(letter) {
@@ -80,9 +71,7 @@ function again(letter){
   letter.classList.toggle('move-letter');
 }
 
-
 // application skateboard
-
 const appBoard = document.querySelector('.join-us-first')
 const appBoard2 = document.querySelector('.join-us-second')
 const appBoard3 = document.querySelector('.join-us-third')
@@ -118,23 +107,8 @@ function roll4(){
   appBoard4.classList.toggle('roll-board');
 }
 
-
-// waarom werkt deze forEach niet??
-// const app = document.querySelectorAll('.app');
-
-// app.forEach((application) => {
-//   application.addEventListener('click', roll);
-// });
-
-// function roll() {
-//   app.classList.toggle('roll-board');
-// }
-
-
-
 // Scroll animation
 // bron: https://www.youtube.com/watch?v=T33NN_pPeNI
-
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) =>{
     console.log(entry)
@@ -149,26 +123,8 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-
-// probeersel met carousel werkt nog niet
-// const carouselImg = document.querySelectorAll(".scroll-carousel");
-// carouselImg.forEach((el) => observerCarousel.observe(el));
-
-// const observerCarousel = new IntersectionObserver((entries) => {
-//   entries.forEach((entry) =>{
-//     console.log(entry)
-//     if (entry.isIntersecting){
-//       entry.target.classList.add('from-left');
-//     } else {
-//       entry.target.classList.remove('from-left');
-//     } 
-//   });
-// });
-
-
 // image carrousel
 // bron: https://www.youtube.com/watch?v=9HcxHDS2w1s
-
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach( button => {
