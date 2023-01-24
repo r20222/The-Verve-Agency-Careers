@@ -767,12 +767,14 @@ h3.copy-title{
     /* object-position: center; */
   }
   .foto1, .foto2, .foto3, .foto4{
-    max-width: 300px;
+    width: 300px;
+    height: 280px;
     margin-top: 50px;
   }
   .foto3, .foto4{
-    height: 300px;
+    height: 280px;
     width: 300px;
+    object-fit: cover;
   }
 
 /* third paragraph & fourth paragraph*/
