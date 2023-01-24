@@ -29,11 +29,13 @@ nav{
     display:flex;
     justify-content: space-between;
     background-color:white;
+    
 }
 h1{
     font-weight:900;
     font-size:19px;
     color: black;
+    z-index:5;
 }
 button{
     width:24px;
@@ -42,6 +44,7 @@ button{
     border:none;
     background-color:black;
     cursor:pointer;
+    z-index:5;
 }
 
 /* first section */
@@ -1018,20 +1021,18 @@ h3.european-agency{
 
     /* cursor light */
     .cursor{
-    width: 105px;
-    height:105px;
     position:absolute;
-    background-color:transparent;
     border-radius:50%;
     position:absolute;
-    z-index: 0;
     }
     .light{
       background-color:rgb(241, 225, 46);
       box-shadow: 0px 0px 10px 10px rgb(241, 225, 46);
+      width: 105px;
+      height:105px;
     }
-    .cursor:hover{
-      opacity:1;
+    .light:hover{
+      opacity:0;
     }
     .design-history:hover{
         cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
@@ -1039,7 +1040,6 @@ h3.european-agency{
     .design-history{
       height:65vh;
       width:100vw;
-      
     }
     .cool-gradient{
       background: black;
@@ -1048,7 +1048,7 @@ h3.european-agency{
       color:black;
       position:absolute;
       top:57px;
-      z-index:2;
+      z-index:1;
       user-select: none;
       display: inline;
       height:64.8vh;
@@ -1095,7 +1095,6 @@ h3.european-agency{
     left: -30rem;
     right: auto;
     }
-    /* ik snap niet waarom de vwidth van het scherm groter wordt bij transform??? */
     @keyframes skater-dog{
     100%{
     transform: translateX(300rem);

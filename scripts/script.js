@@ -2,6 +2,7 @@
 const cursor = document.querySelector('.cursor');
 const designHistory = document.querySelector('.design-history');
 
+
 designHistory.addEventListener('mousemove', e=> {
 cursor.setAttribute('style', 'top: '+(e.pageY - 48.5)+"px; left: "+(e.pageX - 50)+"px;")
 })
@@ -19,6 +20,9 @@ function gradient(){
 
 // design history cursor click on/of
 designHistory.addEventListener('click', yellowLight);
+designHistory.addEventListener('mouseleave', function(){
+  cursor.classList.remove('light');
+});
 
 function yellowLight(){
     cursor.classList.toggle('light');
