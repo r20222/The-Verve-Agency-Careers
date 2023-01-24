@@ -1032,6 +1032,7 @@ h3.european-agency{
     .design-history{
       height:65vh;
       width:100vw;
+      
     }
     .cool-gradient{
       background: black;
@@ -1043,6 +1044,9 @@ h3.european-agency{
       z-index:2;
       user-select: none;
       display: inline;
+      height:64.8vh;
+      width:100vw;
+      overflow:hidden;
     }
 
     /* letter partyyy */
