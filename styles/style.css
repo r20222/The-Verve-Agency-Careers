@@ -88,6 +88,13 @@ button{
   display:none;
 }
 
+/* dog container */
+.dog-container{
+  width:100vw;
+  height: auto;
+  overflow:hidden;
+}
+
 /* dog on skateboard */
 .dog{
     background-color: transparent;
