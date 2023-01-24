@@ -270,16 +270,16 @@ h2.copy-title{
   color: var(--verve-black);
   position:relative;
   font-size: 38px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
   margin-top: -130px;
   font-weight: 100;
 }
 h3.copy-title{
   color: var(--verve-black);
   font-size: 2rem;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
   margin-top: 0px;
   font-weight: 100;
 }
@@ -289,8 +289,8 @@ h3.copy-title{
     color: var(--verve-black);
     font-size:28px;
     text-align:auto;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:20px;
+    margin-right:20px;
     line-height:1.5em;
     position:relative;
     margin-top: 50px;
@@ -705,8 +705,8 @@ h3.copy-title{
   .second-paragraph{
     font-size:20px;
     text-align:auto;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:20px;
+    margin-right:20px;
     line-height:1.5em;
     position:relative;
     margin-top: 250px;
@@ -779,8 +779,8 @@ h3.copy-title{
 .third-paragraph, .fourth-paragraph{
   font-size:20px;
   text-align:auto;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
   line-height:1.5em;
   position:relative;
   margin-top: 50px;
@@ -789,7 +789,8 @@ h3.copy-title{
 
 /* verve quote & get in touch */
 h2.verve-quote, h3.get-in-touch{
-  margin-left:10px;
+  margin-left:20px;
+  margin-right: 20px;
   margin-top:50px;
   color:var(--verve-black);
 }
