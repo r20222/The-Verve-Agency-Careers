@@ -14,9 +14,11 @@ In dit project heb ik geprobeerd om leuke animaties en interacties te bedenken. 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
+[The Verve Careers](https://r20222.github.io/The-Verve-Agency-Careers/)
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-
+Bij het maken van deze opdracht heb ik rekening geprobeerd te houden met de HTML semantiek en heb ik gebruik gemaakt van custom properties voor de Verve kleuren. Ik ben mobile-first begonnen en ik heb mediaqueries gebruikt om de grotere schermen te stylen. Keyframes heb ik gebruikt voor animaties en ik heb Javascript gebruikt om een aantal interacties te maken, en een IntersectionObserver om bij het scrollen de verschillende onderdelen langzaam het scherm in te laten komen.
 
 ## Licentie
 
