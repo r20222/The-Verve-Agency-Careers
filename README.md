@@ -2,7 +2,7 @@
 
 # The Verve Agency Careers Page
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Deze website pagina is bedoeld om designers en developers een warm gevoel te geven om bij The Verve Agency te komen solliciteren.
+Dit is een interactieve pagina die potentiële designers (en developers) nieuwsgierig en warm maakt om bij The Verve Agency te solliciteren.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
