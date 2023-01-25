@@ -801,6 +801,20 @@ h3.copy-title{
   color:var(--verve-black);
 }
 
+/* work word animation color */
+.work-animation{
+  animation: work 8s ease-in-out infinite;
+  width:auto;
+  height:auto;
+  position:relative;
+  display:inline-block;
+}
+@keyframes work{
+  50%{
+    color: var(--verve-red);
+  }
+}
+
 /* verve quote & get in touch */
 h2.verve-quote, h3.get-in-touch{
   margin-left:20px;
