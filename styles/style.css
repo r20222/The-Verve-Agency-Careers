@@ -1276,6 +1276,18 @@ h5{
   }
 }
 
+/* image carousel */
+/* .foto1, .foto2, .foto3, .foto4{
+  width: 600px;
+  height: 560px;
+  margin-top: 50px;
+}
+.foto3, .foto4{
+  height: 560px;
+  width: 600px;
+  object-fit: cover;
+} */
+
 /* verve quote */
 h2.verve-quote{
   margin-left:15rem;
