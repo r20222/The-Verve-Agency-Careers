@@ -1087,7 +1087,7 @@ h3.european-agency{
       opacity:0;
     }
     .design-history:hover{
-        cursor:URL('/assets/flashlight-svgrepo-com.svg'), auto;
+        cursor:URL('../assets/flashlight-svgrepo-com.svg'), auto;
     }
     .design-history{
       height:65vh;
