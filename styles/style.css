@@ -1277,16 +1277,30 @@ h5{
 }
 
 /* image carousel */
-/* .foto1, .foto2, .foto3, .foto4{
-  width: 600px;
-  height: 560px;
+.prev{
+  left:0.5rem;
+}
+.next{
+  left: 57rem;
+}
+.img-container{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  width:1000px;
+  height: 650px;
+}
+.foto1, .foto2, .foto3, .foto4{
+  width: 1000px;
+  height: 600px;
   margin-top: 50px;
+  object-fit: cover;
 }
 .foto3, .foto4{
-  height: 560px;
-  width: 600px;
+  height: 600px;
+  width: 1000px;
   object-fit: cover;
-} */
+}
 
 /* verve quote */
 h2.verve-quote{
