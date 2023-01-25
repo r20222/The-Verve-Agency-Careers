@@ -29,9 +29,11 @@ nav{
     display:flex;
     justify-content: space-between;
     background-color:white;
-    
 }
-h1{
+.nav-desktop-list{
+  display:none;
+}
+h1.verve-nav{
     font-weight:900;
     font-size:19px;
     color: black;
@@ -1023,6 +1025,48 @@ h3.european-agency{
       }
       }
       }
+
+/* media querie 1040px */
+@media screen and (min-width: 65em){
+  .nav-desktop-list{
+    width: 100vw;
+    display:flex;
+    list-style:none;
+    justify-content: flex-end;
+  }
+  .nav-desktop-list li{
+    margin-left: 2rem;
+    margin-top:2rem;
+    font-size:1.2rem;
+    background-image: linear-gradient(transparent 0%, transparent 95%, var(--verve-black) 95%, var(--verve-black) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+  }
+  .nav-desktop-list li:hover{
+    background-size:100% 100%;
+    background-position-x:left;
+  }
+  .nav-desktop-list li a{
+    text-decoration-line:none;
+    color: var(--verve-black);
+  }
+  .menu-button{
+    display:none;
+  }
+  h1.verve-nav{
+    font-weight:900;
+    font-size:3rem;
+    color: black;
+    z-index:5;
+  }
+  .random-text{
+    top:100px !important;
+  }
+}
+
+
 
 /* media querie 1280px */
   @media screen and (min-width: 80em) {
