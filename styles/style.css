@@ -269,9 +269,6 @@ button{
     opacity:0;
     transform: translateX(-700px)
   }
-  60%{
-    opacity:0;
-  }
   90%{
     opacity:0;
   }
