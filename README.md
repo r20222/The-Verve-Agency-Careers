@@ -43,6 +43,7 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 - [ ]  Hond die naar rechts skate als je scrollt [Issue #27](https://github.com/r20222/The-Verve-Agency-Careers/issues/27)
 - [ ]  Juiste font toevoegen [Issue #17](https://github.com/r20222/The-Verve-Agency-Careers/issues/17)
 - [ ]  Custom properties in JavaScript [Issue #7](https://github.com/r20222/The-Verve-Agency-Careers/issues/7)
+- [ ]  Mooie designer quotes achter het donkere vlak zetten bij de zaklamp
 
 ## 📁 Licentie
 
