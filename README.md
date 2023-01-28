@@ -13,6 +13,7 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 -  [💻 Github Pages live link](https://github.com/r20222/The-Verve-Agency-Careers#-github-pages-live-link)
 -  [📝 Kenmerken](https://github.com/r20222/The-Verve-Agency-Careers/blob/main/README.md#-kenmerken)
 -  [📁 Licentie](https://github.com/r20222/The-Verve-Agency-Careers/blob/main/README.md#-licentie)
+-  [✔️ Checklist](https://github.com/r20222/The-Verve-Agency-Careers#checklist)
 
 ##  ✏️ Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -33,7 +34,7 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 - 📱 Ik ben mobile-first begonnen en ik heb mediaqueries gebruikt om de grotere schermen te stylen. Keyframes heb ik gebruikt voor animaties en ik heb Javascript gebruikt om een aantal interacties te maken.
 - 💎 Ik heb voor het eerst in mijn leven een IntersectionObserver gebruikt in JavaScript om bij het scrollen de verschillende onderdelen langzaam het scherm in te laten komen.
 
-## Checklist
+## ✔️ Checklist
 
 - [x] Meerdere interacties en animaties
 - [x] Image carousel
