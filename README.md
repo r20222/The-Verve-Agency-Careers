@@ -9,14 +9,18 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 
 ## ☕ Inhoudsopgave
 
--  ✏️ Beschrijving
--  💻 Github Pages live link
--  📝 Kenmerken
--  📁 Licentie
+-  [✏️ Beschrijving](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#%EF%B8%8F-beschrijving)
+-  [💻 Github Pages live link](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-github-pages-live-link)
+-  [📝 Kenmerken](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-kenmerken)
+-  [📁 Licentie](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-licentie)
 
 ##  ✏️ Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-In dit project heb ik geprobeerd om leuke animaties en interacties te bedenken. Bovenin de pagina is een donker vlak met witte tekst erop, als u erover heen gaat met uw muis veranderd de cursor in een zaklamp en als u die aan klikt is er allemaal tekst te lezen dankzij het licht. Op de mobiele versie kunt u op het donkere vlak drukken waarna een mooie bewegende gradient achtergrond te zien is. Na het donkere vlak is een hond te zien die aan het skateboarden is, op de mobiele versie drukt u op de hond en skate die weg. Als u iets verder naar onderen scrollt komt u bij de vacatures. De letters 'join us now' veranderen als u erover heen hovert met de muis, en verdwijnen even als ze zijn aangeklikt. Daaronder zijn de vacatures te zien in skateboards, hierbij dacht ik aan de eerdere vraag die op de website wordt gesteld en het skatende hondje. Als u over de skateboards hovert dan flip die om, en als u op de skateboards klikt of drukt dan ziet u een animatie. Na het vacature gedeelte zijn op de desktop versie 3 UFO's te zien die een tekst opbeamen. Op de mobiele versie is het 1 ufo. Verder is er ook nog een foto carousel te zien. Veel plezier bij het bekijken van deze pagina.
+- 🔦 In dit project heb ik geprobeerd om leuke animaties en interacties te bedenken. Bovenin de pagina is een donker vlak met witte tekst erop, als u erover heen gaat met uw muis veranderd de cursor in een zaklamp en als u die aan klikt is er allemaal tekst te lezen dankzij het licht. Op de mobiele versie kunt u op het donkere vlak drukken waarna een mooie bewegende gradient achtergrond te zien is. 
+- 🐶 Na het donkere vlak is een hond te zien die aan het skateboarden is, op de mobiele versie drukt u op de hond en skate die weg. 
+- 🛹 Als u iets verder naar onderen scrollt komt u bij de vacatures. De letters 'join us now' veranderen als u erover heen hovert met de muis, en verdwijnen even als ze zijn aangeklikt. Daaronder zijn de vacatures te zien in skateboards, hierbij dacht ik aan de eerdere vraag die op de website wordt gesteld en het skatende hondje. Als u over de skateboards hovert dan flip die om, en als u op de skateboards klikt of drukt dan ziet u een animatie. 
+- 🛸 Na het vacature gedeelte zijn op de desktop versie 3 UFO's te zien die een tekst opbeamen. Op de mobiele versie is het 1 ufo. 
+- 📸 Verder is er ook nog een foto carousel te zien. Veel plezier bij het bekijken van deze pagina.
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 ##  💻 Github Pages live link
@@ -24,7 +28,10 @@ In dit project heb ik geprobeerd om leuke animaties en interacties te bedenken. 
 
 ##  📝 Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-Bij het maken van deze opdracht heb ik rekening geprobeerd te houden met de HTML semantiek en heb ik gebruik gemaakt van custom properties voor de Verve kleuren. Ik ben mobile-first begonnen en ik heb mediaqueries gebruikt om de grotere schermen te stylen. Keyframes heb ik gebruikt voor animaties en ik heb Javascript gebruikt om een aantal interacties te maken, en een IntersectionObserver om bij het scrollen de verschillende onderdelen langzaam het scherm in te laten komen.
+
+- 🖌️ Bij het maken van deze opdracht heb ik rekening geprobeerd te houden met de HTML semantiek en heb ik gebruik gemaakt van custom properties voor de Verve kleuren. 
+- 📱 Ik ben mobile-first begonnen en ik heb mediaqueries gebruikt om de grotere schermen te stylen. Keyframes heb ik gebruikt voor animaties en ik heb Javascript gebruikt om een aantal interacties te maken.
+- 💎 Ik heb voor het eerst in mijn leven een IntersectionObserver gebruikt in JavaScript om bij het scrollen de verschillende onderdelen langzaam het scherm in te laten komen.
 
 ## 📁 Licentie
 
