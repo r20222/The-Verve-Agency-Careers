@@ -35,13 +35,13 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 
 ## Checklist
 
-[x] Meerdere interacties en animaties
-[x] Image carousel
-[x] IntersectionObserver fade-in bij scrollen
-[]  Haperend skateboard verhelpen [Issue #46](https://github.com/r20222/The-Verve-Agency-Careers/issues/46)
-[]  Hond die naar rechts skate als je scrollt [Issue #27](https://github.com/r20222/The-Verve-Agency-Careers/issues/27)
-[]  Juiste font toevoegen [Issue #17](https://github.com/r20222/The-Verve-Agency-Careers/issues/17)
-[]  Custom properties in JavaScript [Issue #7](https://github.com/r20222/The-Verve-Agency-Careers/issues/7)
+- [x] Meerdere interacties en animaties
+- [x] Image carousel
+- [x] IntersectionObserver fade-in bij scrollen
+- []  Haperend skateboard verhelpen [Issue #46](https://github.com/r20222/The-Verve-Agency-Careers/issues/46)
+- []  Hond die naar rechts skate als je scrollt [Issue #27](https://github.com/r20222/The-Verve-Agency-Careers/issues/27)
+- []  Juiste font toevoegen [Issue #17](https://github.com/r20222/The-Verve-Agency-Careers/issues/17)
+- []  Custom properties in JavaScript [Issue #7](https://github.com/r20222/The-Verve-Agency-Careers/issues/7)
 
 ## 📁 Licentie
 
