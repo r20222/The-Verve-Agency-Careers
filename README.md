@@ -33,6 +33,16 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 - 📱 Ik ben mobile-first begonnen en ik heb mediaqueries gebruikt om de grotere schermen te stylen. Keyframes heb ik gebruikt voor animaties en ik heb Javascript gebruikt om een aantal interacties te maken.
 - 💎 Ik heb voor het eerst in mijn leven een IntersectionObserver gebruikt in JavaScript om bij het scrollen de verschillende onderdelen langzaam het scherm in te laten komen.
 
+## Checklist
+
+[x] Meerdere interacties en animaties
+[x] Image carousel
+[x] IntersectionObserver fade-in bij scrollen
+[]  Haperend skateboard verhelpen [Issue #46](https://github.com/r20222/The-Verve-Agency-Careers/issues/46)
+[]  Hond die naar rechts skate als je scrollt [Issue #27](https://github.com/r20222/The-Verve-Agency-Careers/issues/27)
+[]  Juiste font toevoegen [Issue #17](https://github.com/r20222/The-Verve-Agency-Careers/issues/17)
+[]  Custom properties in JavaScript [Issue #7](https://github.com/r20222/The-Verve-Agency-Careers/issues/7)
+
 ## 📁 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
