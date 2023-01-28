@@ -9,7 +9,7 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 
 ## ☕ Inhoudsopgave
 
--  [✏️ Beschrijving](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#%EF%B8%8F-beschrijving)
+-  [✏️ Beschrijving](https://github.com/r20222/The-Verve-Agency-Careers#%EF%B8%8F-beschrijving)
 -  [💻 Github Pages live link](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-github-pages-live-link)
 -  [📝 Kenmerken](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-kenmerken)
 -  [📁 Licentie](https://github.com/r20222/The-Verve-Agency-Careers/edit/main/README.md#-licentie)
