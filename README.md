@@ -44,8 +44,7 @@ Dit is een interactieve pagina die potentiële designers (en developers) nieuwsg
 - [ ]  Juiste font toevoegen [Issue #17](https://github.com/r20222/The-Verve-Agency-Careers/issues/17)
 - [ ]  Custom properties in JavaScript [Issue #7](https://github.com/r20222/The-Verve-Agency-Careers/issues/7)
 - [ ]  Mooie designer quotes achter het donkere vlak zetten bij de zaklamp
-- [ ]  Tekst op zaklamp vlak beter uitleinen
-- [ ]  Tekst op skateboards een andere kleur geven zodat het beter leesbaar is
+
 
 ## 📁 Licentie
 
