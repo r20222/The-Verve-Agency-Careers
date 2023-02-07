@@ -357,7 +357,7 @@ h3.copy-title{
   }
   .applications h4{
     font-size: 1.6rem;
-    color: black;
+    color: white;
   }
   .board{
     position: relative;
@@ -990,6 +990,11 @@ h3.european-agency{
     html{
       overflow-x:hidden;
     }
+    .design-history h2{
+      width: 500px;
+      /* font-size: 80px; */
+     
+    }
     .dog{
       animation: skater-dog 10s linear infinite;
       position:relative;
@@ -1005,7 +1010,11 @@ h3.european-agency{
 
   /* media querie 896px */
   @media screen and (min-width: 56em) {
-    
+    .design-history h2{
+      width: 800px;
+      font-size: 50px;
+      /* line-height: 80px; */
+    }
     .container-titles{
       width: 80vw;
     }
@@ -1075,6 +1084,11 @@ h3.european-agency{
   .random-text{
     top:100px !important;
   }
+  .design-history h2{
+    width: 900px;
+    font-size: 80px;
+    line-height: 80px;
+  }
 }
 
 
@@ -1087,6 +1101,12 @@ h3.european-agency{
     position:absolute;
     border-radius:50%;
     position:absolute;
+    }
+    .design-history h2{
+      width: 1200px;
+      font-size: 70px;
+      line-height: 80px;
+      padding-left:90px;
     }
     .light{
       background-color:rgb(241, 225, 46);
