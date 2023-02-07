@@ -1104,8 +1104,9 @@ h3.european-agency{
     }
     .design-history h2{
       width: 1200px;
-      font-size: 80px;
+      font-size: 70px;
       line-height: 80px;
+      padding-left:90px;
     }
     .light{
       background-color:rgb(241, 225, 46);
